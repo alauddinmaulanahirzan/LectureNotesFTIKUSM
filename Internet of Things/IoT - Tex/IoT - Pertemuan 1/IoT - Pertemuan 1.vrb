@@ -1,0 +1,3 @@
+\frametitle{\insertsectionhead}
+  \framesubtitle{\insertsubsectionhead}
+    \themename defines a custom beamer template to add a text to the footer. It can be set via
