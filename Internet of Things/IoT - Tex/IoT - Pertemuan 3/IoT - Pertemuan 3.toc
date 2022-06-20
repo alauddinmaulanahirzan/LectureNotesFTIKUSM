@@ -1,1 +1,1 @@
-\beamer@sectionintoc {1}{Ketentuan Perkuliahan}{2}{0}{1}
+\beamer@sectionintoc {1}{Komponen Internal IoT}{2}{0}{1}

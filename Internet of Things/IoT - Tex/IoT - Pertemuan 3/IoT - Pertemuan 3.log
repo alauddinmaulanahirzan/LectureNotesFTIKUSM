@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2022.6.15)  19 JUN 2022 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2022.6.15)  20 JUN 2022 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,6 +736,10 @@ lt.sty
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/themes/outer/beamerouterthemedefau
 lt.sty)))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 8.
+
 (/home/maulana/texmf/tex/latex/beamertheme-trigon/beamerthemetrigon.sty
 Package: beamerthemetrigon 2022/05/08 v0.6.6 Trigon Beamer theme
 
@@ -1412,27 +1416,339 @@ Missing character: There is no ; in font nullfont!
 ] [2
 
 ]
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 84.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 84.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
+(Font)              scaled to size 8.0pt on input line 84.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 84.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 84.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 76.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 84.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 76.
+(Font)              scaled to size 12.0pt on input line 84.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 76.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 84.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 4.0pt on input line 76.
+(Font)              scaled to size 4.0pt on input line 84.
 File: figures//logo_usm.png Graphic file (type png)
 <use figures//logo_usm.png>
-Package pdftex.def Info: figures//logo_usm.png  used on input line 76.
+Package pdftex.def Info: figures//logo_usm.png  used on input line 84.
 (pdftex.def)             Requested size: 20.0pt x 22.66763pt.
  [3
 
  <./figures//logo_usm.png>]
-<figures//thank-you.jpg, id=45, 834.4776pt x 419.8887pt>
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 94.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/n' will be
+(Font)              scaled to size 10.95pt on input line 94.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/it' aliased to
+(Font)              `T1/SourceSansPro-TLF/semibold/it' on input line 94.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/it' will be
+(Font)              scaled to size 10.95pt on input line 94.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 94.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
+(Font)              scaled to size 12.0pt on input line 94.
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 94.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [4
+
+]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 104.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [5
+
+]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 112.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [6
+
+]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 124.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [7
+
+]
+<figures//undervoltage-warning.jpg, id=73, 240.9pt x 77.088pt>
+File: figures//undervoltage-warning.jpg Graphic file (type jpg)
+<use figures//undervoltage-warning.jpg>
+Package pdftex.def Info: figures//undervoltage-warning.jpg  used on input line 
+137.
+(pdftex.def)             Requested size: 368.74272pt x 118.00893pt.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 137.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 137.
+
+Overfull \vbox (4.89296pt too high) detected at line 137
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 137.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[8
+
+ <./figures//undervoltage-warning.jpg>]
+<figures//skematik-rpi.png, id=80, 785.93625pt x 476.78125pt>
+File: figures//skematik-rpi.png Graphic file (type png)
+<use figures//skematik-rpi.png>
+Package pdftex.def Info: figures//skematik-rpi.png  used on input line 147.
+(pdftex.def)             Requested size: 245.83264pt x 149.13199pt.
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 147.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [9
+
+ <./figures//skematik-rpi.png>]
+<figures//skematik-arduino.png, id=88, 501.875pt x 264.99pt>
+File: figures//skematik-arduino.png Graphic file (type png)
+<use figures//skematik-arduino.png>
+Package pdftex.def Info: figures//skematik-arduino.png  used on input line 157.
+
+(pdftex.def)             Requested size: 286.80058pt x 151.43808pt.
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 157.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+
+[10
+
+ <./figures//skematik-arduino.png>]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 169.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [11
+
+]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 177.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [12
+
+]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 187.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [13
+
+]
+<figures//mikrokontroler.png, id=115, 642.4pt x 488.82625pt>
+File: figures//mikrokontroler.png Graphic file (type png)
+<use figures//mikrokontroler.png>
+Package pdftex.def Info: figures//mikrokontroler.png  used on input line 197.
+(pdftex.def)             Requested size: 204.85846pt x 155.88309pt.
+
+Overfull \vbox (4.42114pt too high) detected at line 197
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 197.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[14
+
+ <./figures//mikrokontroler.png (PNG copy)>]
+<figures//siklus-kontroler.png, id=122, 817.0525pt x 284.06125pt>
+File: figures//siklus-kontroler.png Graphic file (type png)
+<use figures//siklus-kontroler.png>
+Package pdftex.def Info: figures//siklus-kontroler.png  used on input line 209.
+
+(pdftex.def)             Requested size: 286.80058pt x 99.70898pt.
+
+Overfull \vbox (0.77321pt too high) detected at line 209
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 209.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[15
+
+ <./figures//siklus-kontroler.png (PNG copy)>]
+<figures//atmega.png, id=129, 1460.45625pt x 1056.94875pt>
+File: figures//atmega.png Graphic file (type png)
+<use figures//atmega.png>
+Package pdftex.def Info: figures//atmega.png  used on input line 219.
+(pdftex.def)             Requested size: 204.85846pt x 148.24599pt.
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 219.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [16
+
+ <./figures//atmega.png>]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 225.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+
+[17
+
+]
+<figures//komponen-soc.jpg, id=143, 475.7775pt x 273.02pt>
+File: figures//komponen-soc.jpg Graphic file (type jpg)
+<use figures//komponen-soc.jpg>
+Package pdftex.def Info: figures//komponen-soc.jpg  used on input line 235.
+(pdftex.def)             Requested size: 266.31349pt x 152.82767pt.
+
+Overfull \vbox (3.70572pt too high) detected at line 235
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 235.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[18
+
+ <./figures//komponen-soc.jpg>]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 250.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [19
+
+]
+<figures//bcm.jpg, id=158, 149.1171pt x 112.0185pt>
+File: figures//bcm.jpg Graphic file (type jpg)
+<use figures//bcm.jpg>
+Package pdftex.def Info: figures//bcm.jpg  used on input line 260.
+(pdftex.def)             Requested size: 204.85846pt x 153.89854pt.
+
+Overfull \vbox (4.99258pt too high) detected at line 260
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 260.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[20
+
+ <./figures//bcm.jpg>]
+<figures//arm.jpg, id=165, 301.125pt x 156.585pt>
+File: figures//arm.jpg Graphic file (type jpg)
+<use figures//arm.jpg>
+Package pdftex.def Info: figures//arm.jpg  used on input line 272.
+(pdftex.def)             Requested size: 204.85846pt x 106.53134pt.
+
+Overfull \vbox (9.9279pt too high) detected at line 272
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 272.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[21
+
+ <./figures//arm.jpg>]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 286.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [22
+
+]
+<figures//uart.jpg, id=178, 1445.4pt x 1084.05pt>
+File: figures//uart.jpg Graphic file (type jpg)
+<use figures//uart.jpg>
+Package pdftex.def Info: figures//uart.jpg  used on input line 305.
+(pdftex.def)             Requested size: 102.42923pt x 76.81755pt.
+<figures//i2c.jpg, id=179, 1445.4pt x 1084.05pt>
+File: figures//i2c.jpg Graphic file (type jpg)
+<use figures//i2c.jpg>
+Package pdftex.def Info: figures//i2c.jpg  used on input line 305.
+(pdftex.def)             Requested size: 102.42923pt x 76.81755pt.
+
+Overfull \vbox (19.97896pt too high) detected at line 305
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 305.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[23
+
+ <./figures//uart.jpg> <./figures//i2c.jpg>]
+Overfull \hbox (4.41435pt too wide) in paragraph at lines 313--313
+\T1/SourceSansPro-TLF/regular/n/10.95 tidak memi-liki tu-juan yang telah di-ten
+-tukan se-belum-nya dan da-pat di-gu-nakan oleh pengem-
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 313.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[24
+
+]
+<figures//spi.jpg, id=192, 770.88pt x 626.34pt>
+File: figures//spi.jpg Graphic file (type jpg)
+<use figures//spi.jpg>
+Package pdftex.def Info: figures//spi.jpg  used on input line 329.
+(pdftex.def)             Requested size: 102.42923pt x 83.2238pt.
+<figures//gpio.png, id=193, 1204.5pt x 1204.5pt>
+File: figures//gpio.png Graphic file (type png)
+<use figures//gpio.png>
+Package pdftex.def Info: figures//gpio.png  used on input line 329.
+(pdftex.def)             Requested size: 102.42923pt x 102.4271pt.
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 329.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [25
+
+ <./figures//spi.jpg> <./figures//gpio.png (PNG copy)>]
+<figures//io-kontroler.png, id=201, 381.425pt x 241.90375pt>
+File: figures//io-kontroler.png Graphic file (type png)
+<use figures//io-kontroler.png>
+Package pdftex.def Info: figures//io-kontroler.png  used on input line 341.
+(pdftex.def)             Requested size: 163.88426pt x 103.93536pt.
+
+Overfull \vbox (9.07791pt too high) detected at line 341
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 341.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[26
+
+ <./figures//io-kontroler.png (PNG copy)>]
+<figures//thank-you.jpg, id=208, 834.4776pt x 419.8887pt>
 File: figures//thank-you.jpg Graphic file (type jpg)
 <use figures//thank-you.jpg>
-Package pdftex.def Info: figures//thank-you.jpg  used on input line 85.
+Package pdftex.def Info: figures//thank-you.jpg  used on input line 348.
 (pdftex.def)             Requested size: 455.24603pt x 256.08047pt.
- [4
+ [27
 
  <./figures//thank-you.jpg>])
 \tf@nav=\write6
@@ -1444,25 +1760,29 @@ Package pdftex.def Info: figures//thank-you.jpg  used on input line 85.
 \tf@snm=\write8
 \openout8 = `"IoT - Pertemuan 3.snm"'.
 
- (./IoT - Pertemuan 3.aux (./frames.aux))
+
+(./IoT - Pertemuan 3.aux (./frames.aux))
 Package rerunfilecheck Info: File `"IoT - Pertemuan 3".out' has not changed.
-(rerunfilecheck)             Checksum: DE74629893D566886318A226077BBD9A;151.
+(rerunfilecheck)             Checksum: FAC0062B18F4DDBDB57BD845A627001D;154.
  ) 
 Here is how much of TeX's memory you used:
- 26552 strings out of 480954
- 507181 string characters out of 5908242
- 780773 words of memory out of 5000000
- 43170 multiletter control sequences out of 15000+600000
- 491631 words of font info for 45 fonts, out of 8000000 for 9000
+ 26856 strings out of 480954
+ 512875 string characters out of 5908242
+ 784937 words of memory out of 5000000
+ 43390 multiletter control sequences out of 15000+600000
+ 557474 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  131i,15n,132p,1859b,965s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}</usr/share
-/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb></usr/sha
-re/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb>
-Output written on "IoT - Pertemuan 3.pdf" (4 pages, 8889554 bytes).
+/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb></usr/share/te
+xmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb></usr/share/
+texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb></usr/sha
+re/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-SemiboldIt.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "IoT - Pertemuan 3.pdf" (27 pages, 13733852 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
