@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{Ketentuan Perkuliahan}{2}{0}{1}
+\beamer@sectionintoc {2}{\textit {Internet of Everything \& Internet of Things}}{5}{0}{2}

@@ -1,0 +1,314 @@
+\titleframe
+
+% Contoh Kode Slide
+%\section{Introduction}
+%\begin{frame}{\insertsectionhead}
+%	\framesubtitle{A short introduction to Trigon}
+%	\themename is a modern, elegant and versatile theme for Beamer, inspired by
+%	the
+%	\href{https://github.com/matze/mtheme}{\textsc{metropolis} theme} from Matthias
+%	Vogelgesang.
+%	\vfill
+%	\themename comes with lots of nice extra features
+%	\begin{itemize}
+%		\item Multiple style variations for title, section and normal slides
+%		\item Simple customization of theme colors
+%		\item Lots of convenient options to tweak the design
+%	\end{itemize}
+%\end{frame}
+
+% Contoh Kode Tabel
+%  \begin{table}[H]
+% \centering
+% \caption{A nice table example}
+% \begin{tabular}{@{} lccc @{}}
+%    \toprule
+%    & \textbf{Velocity} & \textbf{Angle}  & \textbf{Vertical force} \\
+%    & $U$ & $\alpha$  & $F_z$ \\
+%    & [m/s] & [$^\circ$]  & [N] \\
+%    \midrule
+%    2D simulation  & 9 & 2 & 9.23 \\
+%    3D simulation  & 10.0 & 3 & 15.039 \\
+%    Experiment A   & 11.31 & 2.5 & 13.2 \\
+%    Experiment B   & 11.26 & 2.7 & 12.6 \\
+%    Experiment C   & 11.33 & 2.47 & 13.6 \\
+%    \bottomrule
+%  \end{tabular}
+%\end{table}
+
+% Contoh Kode Gambar
+%  \begin{figure}[ht!]
+%	\begin{subfigure}[b]{0.3\textwidth}
+%		\frame{\includegraphics[width=\textwidth]{layout_example-03.jpg}}
+%		\caption*{plain}
+%	\end{subfigure}
+%	\hspace{\fill}
+%	\begin{subfigure}[b]{0.3\textwidth}
+%		\frame{\includegraphics[width=\textwidth]{layout_example-02.jpg}}
+%		\caption*{style1}
+%	\end{subfigure}
+%	\hspace{\fill}
+%	\begin{subfigure}[b]{0.3\textwidth}
+%		\frame{\includegraphics[width=\textwidth]{layout_example-01.jpg}}
+%		\caption*{style2 (default)}
+%	\end{subfigure}
+%\end{figure}
+
+% Contoh Kode Blocks
+% \begin{block}{Regular block}
+%	Just a regular block
+%\end{block}
+%\begin{alertblock}{Alert block}
+%	Some important thing
+%\end{alertblock}
+%\begin{exampleblock}{Example block}
+%	No difference with regular block to avoid excessive distraction
+%\end{exampleblock}
+
+\setbeamertemplate{frame footer}{Alauddin Maulana Hirzan, M. Kom - Universitas Semarang}
+
+\section{Komponen Eksternal IoT}
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa Itu Komponen Eksternal IoT}
+	\justifying
+	Sesuai dengan namanya, komponen ini merupakan komponen eksternal yang terletak di luar dari komponen utama. Sehingga bersifat modular, dan portabel. Dalam pemanfaatannya bisa disesuaikan dengan kebutuhan dari pengguna.
+	\vfill
+	Komponen eksternal IoT terdapat dua jenis saja, tergantung dari apa yang digunakan.
+	\begin{itemize}
+		\item Sensor
+		\item Aktuator
+		\item Perangkat eksternal lain
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Sensor IoT}
+	\justifying
+	Sensor adalah perangkat yang menghasilkan sinyal output untuk tujuan merasakan fenomena fisik. Konsep ini meniru sensor-sensor yang ada di tubuh manusia. Pada dasarnya ketika tubuh manusia \textit{merasakan} sesuatu, sensor akan mengirim sinyal ke otak.
+	\begin{itemize}
+		\item Merasakan Panas $=>$ sinyal
+		\item Mencium Bau $=>$ sinyal
+		\item Merasakan sentuhan $=>$ sinyal
+		\item Mendengar suara $=>$ sinyal
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Cara Kerja Sensor Manusia}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.65\textwidth}
+			\frame{\includegraphics[width=\textwidth]{mata.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Cara Kerja Sensor Manusia}
+	\justifying
+	Mata merasakan adanya objek yang terkena cahaya, hal ini kemudian diteruskan hingga syaraf optik yang ada di belakang mata. Syaraf optik yang menerima sinyal tersebut kemudian dilanjutkan ke bagian pemrosesan yaitu di otak.
+	\vfill
+	Hal ini lah yang kemudian ditiru dan menjadi kamera modern saat ini. Baik mata maupun kamera, sama-sama menggunakan sinyal listrik untuk dikirimkan ke otak. Namun format datanya yang berbeda.
+	\vfill
+	\begin{block}{Info}
+		Otak bukanlah analog atau digital, tetapi bekerja menggunakan paradigma pemrosesan sinyal yang dimiliki keduanya.
+	\end{block}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Cara Kerja Sensor IoT}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.9\textwidth}
+			\frame{\includegraphics[width=\textwidth]{ultrasonik.png}}
+		\end{subfigure}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Cara Kerja Sensor IoT}
+	\justifying
+	Sensor-sensor tertentu akan mengirimkan apa yang dia rasakan dengan menggunakan dua jenis sinyal. Antara sinyal \textbf{\textit{Digital}} atau \textbf{\textit{Analog}}. Hal ini akan mempengaruhi bagaimana sinyal itu akan direspon oleh sistem.
+	\vfill
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.8\textwidth}
+			\frame{\includegraphics[width=\textwidth]{sinyal.jpg}}
+		\end{subfigure}
+	\end{figure}	
+\end{frame}	
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Digital dan Analog \#1}
+	\justifying
+	\textbf{Sinyal digital adalah }
+	\vfill
+	\begin{quote}
+	sinyal yang mewakili data sebagai urutan nilai diskrit; pada waktu tertentu hanya dapat mengambil, paling banyak, salah satu dari sejumlah nilai yang terbatas.
+	\end{quote}
+	\vfill
+	\textbf{Sinyal analog adalah }
+	\vfill
+	\begin{quote}
+	sinyal kontinu yang mewakili beberapa kuantitas lain,
+	\end{quote}
+	\begin{block}{Info}
+		Modem adalah teknologi yang mampu melakukan konversi sinyal digital ke analog maupun sebaliknya
+	\end{block}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Digital dan Analog \#2}
+	\justifying
+	Maka agar data dari sensor bisa diterima oleh perangkat, maka \textbf{\textit{kenali}} dengan baik perangkat yang digunakan. Perangkat seperti \textbf{\textit{Arduino}} dapat menerima sinyal \textbf{Digital} maupun \textbf{Analog}. Sedangkan Raspberry Pi hanya bisa menerima \textbf{Digital}. Namun agar bisa mendukung sinyal \textbf{Analog} diperlukan komponen ekstra seperti \textbf{\textit{Analog Digital Converter (ADC)}}
+	\vfill
+	\begin{block}{Info}
+		Meski lemah dalam kompatibilitas sensor, Raspberry Pi lebih unggu dalam hal komputasi
+	\end{block}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Jenis Sensor}
+	\justifying
+	Jenis sensor mengikuti apa yang perlu \textbf{dirasakan}, maka muncul sensor:
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item Suara
+			\item Cahaya
+			\item Gerak
+			\item Kimia
+			\item Gas
+			\item Jarak
+			\item Tekanan
+			\item Keasaman
+			\item Temperatur
+			\item Arus Listrik
+			\item Kelembaban
+			\item Curah Hujan
+			\item Tanah
+		\end{itemize}
+	\end{multicols}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Contoh Sensor}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.7\textwidth}
+			\frame{\includegraphics[width=\textwidth]{sensor.jpg}}
+		\end{subfigure}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Konektivitas Sensor}
+	\justifying
+	Sebagian besar sensor dapat dikoneksikan menggunakan pin Analog maupun Digital. Untuk sensor dengan output \textbf{Yes} atau \textbf{No} bisa menggunakan pin \textbf{Digital}. Namun untuk sensor dengan output pengukuran seperti suhu, sebagian besar akan menggunakan \textbf{Analog.}
+	\vfill
+	\begin{itemize}
+		\item Raspberry Pi hanya mendukung pin \textbf{Digital} namun ada versi Pico
+		\item Arduino mendukung pin \textbf{Digital} dan \textbf{Analog}
+	\end{itemize}
+	\vfill
+	Jadi harus yang mana?
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{\textit{Hat} atau \textit{Shield}}
+	\justifying
+	\textit{Hat} (\textit{Hardware Attached on Top}) atau \textit{Shield} merupakan istilah untuk aksesoris tambahan perangkat \textit{Raspberry Pi} yang di mana pengguna dapat menggunakan sensor-sensor atau fitur tertentu yang sudah didesain khusus untuk RPi ini.
+	\vfill
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.30\textwidth}
+			\frame{\includegraphics[width=\textwidth]{hat.jpg}}
+		\end{subfigure}
+		\hspace{50pt}
+		\begin{subfigure}[b]{0.30\textwidth}
+			\frame{\includegraphics[width=\textwidth]{hat2.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Aktuator}
+	\justifying
+	Jika sensor bertugas menerima kondisi lingkungan dan bertindak sebagai input, maka aktuator bertindah sebagai output. Aktuator akan melakukan suatu tugas tergantung dari apa yang ditugaskan oleh sistem.
+	\vfill
+	Aktuator membutuhkan perangkat kontrol (dikendalikan oleh sinyal kontrol) dan sumber energi. Sinyal kontrol adalah energi yang relatif rendah dan mungkin tegangan atau arus listrik, pneumatik, atau tekanan cairan hidrolik, atau bahkan tenaga manusia
+	\vfill
+	Meskipun banyak aktuator yang ada, namun khusus untuk IoT yang digunakan hanya aktuator berbasiskan listrik dengan bantuan \textit{relay}.
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Aktuator}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.30\textwidth}
+			\frame{\includegraphics[width=\textwidth]{lock.jpg}}
+			\caption*{Solenoid Lock}
+		\end{subfigure}
+		\hspace{50pt}
+		\begin{subfigure}[b]{0.30\textwidth}
+			\frame{\includegraphics[width=\textwidth]{pump.jpg}}
+			\caption*{Pompa Air Ketika Dialiri}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Contoh Skematik Aktuator}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.7\textwidth}
+			\frame{\includegraphics[width=\textwidth]{skematik.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Perangkat Eksternal Lainnya}
+	\justifying
+	Selain sensor dan aktuator, masih terdapat komponen-komponen eksternal lainnya yang bisa berjenis perangkat tengah (modul Wi-Fi) atau akhir (Mouse).
+	\vfill
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.5\textwidth}
+			\frame{\includegraphics[width=\textwidth]{esp8266.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Raspberry Pi dan Kamera DSLR}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.6\textwidth}
+			\frame{\includegraphics[width=\textwidth]{dslr.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Raspberry Pi dan \textit{Network Access Storage}}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.7\textwidth}
+			\frame{\includegraphics[width=\textwidth]{nas.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Raspberry Pi dan \textit{Liquid Crystal Display}}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.7\textwidth}
+			\frame{\includegraphics[width=\textwidth]{lcd.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\setbeamertemplate{background} 
+{
+	\includegraphics[width=\paperwidth,height=\paperheight]{thank-you.jpg}
+}
+\begin{frame}[plain]
+\end{frame}

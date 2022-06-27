@@ -1,0 +1,379 @@
+\titleframe
+
+% Contoh Kode Slide
+%\section{Introduction}
+%\begin{frame}{\insertsectionhead}
+%	\framesubtitle{A short introduction to Trigon}
+%	\themename is a modern, elegant and versatile theme for Beamer, inspired by
+%	the
+%	\href{https://github.com/matze/mtheme}{\textsc{metropolis} theme} from Matthias
+%	Vogelgesang.
+%	\vfill
+%	\themename comes with lots of nice extra features
+%	\begin{itemize}
+%		\item Multiple style variations for title, section and normal slides
+%		\item Simple customization of theme colors
+%		\item Lots of convenient options to tweak the design
+%	\end{itemize}
+%\end{frame}
+
+% Contoh Kode Tabel
+%  \begin{table}[H]
+% \centering
+% \caption{A nice table example}
+% \begin{tabular}{@{} lccc @{}}
+%    \toprule
+%    & \textbf{Velocity} & \textbf{Angle}  & \textbf{Vertical force} \\
+%    & $U$ & $\alpha$  & $F_z$ \\
+%    & [m/s] & [$^\circ$]  & [N] \\
+%    \midrule
+%    2D simulation  & 9 & 2 & 9.23 \\
+%    3D simulation  & 10.0 & 3 & 15.039 \\
+%    Experiment A   & 11.31 & 2.5 & 13.2 \\
+%    Experiment B   & 11.26 & 2.7 & 12.6 \\
+%    Experiment C   & 11.33 & 2.47 & 13.6 \\
+%    \bottomrule
+%  \end{tabular}
+%\end{table}
+
+% Contoh Kode Gambar
+%  \begin{figure}[ht!]
+%	\begin{subfigure}[b]{0.3\textwidth}
+%		\frame{\includegraphics[width=\textwidth]{layout_example-03.jpg}}
+%		\caption*{plain}
+%	\end{subfigure}
+%	\hspace{\fill}
+%	\begin{subfigure}[b]{0.3\textwidth}
+%		\frame{\includegraphics[width=\textwidth]{layout_example-02.jpg}}
+%		\caption*{style1}
+%	\end{subfigure}
+%	\hspace{\fill}
+%	\begin{subfigure}[b]{0.3\textwidth}
+%		\frame{\includegraphics[width=\textwidth]{layout_example-01.jpg}}
+%		\caption*{style2 (default)}
+%	\end{subfigure}
+%\end{figure}
+
+% Contoh Kode Blocks
+% \begin{block}{Regular block}
+%	Just a regular block
+%\end{block}
+%\begin{alertblock}{Alert block}
+%	Some important thing
+%\end{alertblock}
+%\begin{exampleblock}{Example block}
+%	No difference with regular block to avoid excessive distraction
+%\end{exampleblock}
+
+\setbeamertemplate{frame footer}{Alauddin Maulana Hirzan, M. Kom - Universitas Semarang}
+
+\section{Protokol Komunikasi IoT}
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa itu Komunikasi?}
+	\justifying
+	Dilansir dari \textbf{merriam-webster.com}:
+	\vfill
+	\begin{quote}
+			Sebuah proses dimana informasi dipertukarkan antara individu melalui sistem simbol, tanda, atau perilaku yang sama
+	\end{quote}
+	\vfill
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.45\textwidth}
+				\frame{\includegraphics[width=\textwidth]{komunikasi.jpg}}
+			\end{subfigure}
+		\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Komposisi Komunikasi}
+	\justifying
+	Agar komunikasi dapat terjadi dengan baik maka diperlukan beberapa hal seperti:
+	\vfill
+	\begin{itemize}
+		\item Pengirim
+		\item Penerima
+		\item Media
+		\item Bahasa/Protokol
+	\end{itemize}
+	\vfill
+	\begin{block}{Info}
+		Dalam dunia komputer, komposisi komunikasi masih sama dan yang membedakan hanyalah kecepatan penyampaian yang bisa dihitung dalam satuan tertentu.
+	\end{block}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Komposisi Komunikasi Komputer \#1}
+	\justifying
+	\textbf{Pengirim} dan \textbf{Penerima} dalam kasus ini adalah \textit{\textbf{End Nodes}} atau perangkat yang terletak paling akhir/ujung. Sehingga tidak ada perangkat lain yang tersambung dengan perangkat tersebut. Oleh karena itulah pengguna komputer juga bisa dipanggil sebagai \textbf{\textit{End Users}}. 
+	\vfill
+	Berikut ini adalah perangkat yang masuk dalam kategori \textit{End Nodes} adalah
+	\vfill
+	\begin{itemize}
+		\item Laptop
+		\item Komputer
+		\item \textit{Thinclient}
+		\item \textit{Smartphone}
+		\item \textit{IoT Board} (tergantung situasi)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Komposisi Komunikasi Komputer \#2}
+	\justifying
+	Komponen penting berikutnya adalah \textbf{media} komunikasi. Jika manusia berbicara melalui media udara yang membantu penghantaran gelombang suara. Sedangkan komputer menggunakan sinyal digital untuk dapat berkomunikasi dengan komputer lainnya. 
+	\vfill
+	Maka untuk dapat mengirimkan sinyal-sinyal tersebut membutuhkan proses tambahan yaitu teknik \textbf{Modulasi-Demodulasi} -\textit{red:\textbf{modem}}
+	\vfill
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.45\textwidth}
+			\frame{\includegraphics[width=\textwidth]{modem.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Komposisi Komunikasi Komputer \#3}
+	\justifying
+	Aspek terakhir yang tidak kalah penting adalah bahasa atau protokol. Protokol ini memiliki fungsi atau tujuan untuk menyamakan bentuk/pola komunikasi yang dikirimkan. Sehingga baik pengirim maupun penerima dapat sama-sama mengerti apa pesan yang dikirimkan.
+	\vfill
+	Protokol utama yang digunakan oleh komputer untuk berkomunikasi adalah:
+	\begin{itemize}
+		\item TCP
+		\item UDP
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Protokol \textbf{\textit{Transmission Control Protocol}}}
+	\justifying
+	Protokol ini kenal sebagai \textit{connection-oriented}. Protokol ini menggunakan mode komunikasi jaringan di mana sesi komunikasi atau koneksi semi permanen dibuat sebelum data yang berguna dapat ditransfer.
+	\vfill
+	\textbf{Koneksi Dulu Baru Data}
+	\vfill
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.45\textwidth}
+			\frame{\includegraphics[width=\textwidth]{connection-oriented.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Mekanisme TCP \#1}
+	\justifying
+	Sebelum seseorang dapat mengirim data apa pun, klien dan server harus membuat koneksi. Server harus secara aktif mendengarkan permintaan klien setiap kali koneksi dibuat. Protokol TCP berbasis koneksi, sehingga membuat dan memelihara koneksi antara penerima dan pengirim saat data sedang dikirimkan di antara mereka. Oleh karena itu, informasi apa pun yang berjalan melalui internet dijamin akan sampai tanpa perubahan.
+	\vfill
+	Sehingga dalam koneksinya terkadang memutuhkan waktu yang lebih lama dari UDP
+	\vfill
+	\begin{block}{Info}
+		Teknik TCP meniru konsep komunikasi manusia yang diawali dengan jabat tangan atau \textbf{\textit{Handshake}}
+	\end{block}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Mekanisme TCP \#2 - \textit{Three-way Handshake} 1}
+	\justifying
+	Koneksi dengan TCP dimulai dengan langkah-langkah berikut:
+	\vfill
+	\begin{itemize}
+	\item Langkah 1 (SYN): Pada langkah pertama, klien ingin membuat koneksi dengan server, sehingga mengirimkan segmen dengan SYN (Synchronize Sequence Number)
+	\item Langkah 2 (SYN + ACK): Server merespons permintaan klien dengan bit sinyal SYN-ACK yang ditetapkan. 
+	\item Langkah 3 (ACK): Di bagian akhir, klien mengakui respons server dan keduanya membuat koneksi yang andal yang dengannya mereka akan memulai transfer data aktual
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Mekanisme TCP \#2 - \textit{Three-way Handshake} 2}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.45\textwidth}
+			\frame{\includegraphics[width=\textwidth]{handshake.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Mekanisme TCP \#3 - Pengiriman Data 1}
+	\justifying
+	1. Pengirim memulai proses dengan yang berikut:
+	\begin{itemize}
+		\item \textbf{\textit{Sequence Number}} (Seq=521): Berisi nomor urut awal acak yang dihasilkan di sisi pengirim.
+		\item \textbf{\textit{SYN Flag}} (Syn=1): Meminta penerima untuk menyinkronkan nomor urutnya dengan nomor urut yang disediakan di atas
+		\item \textbf{\textit{Maximum Segment Size}} (MSS=1460 B): Pengirim memberitahukan ukuran segmen maksimumnya.
+		\item \textbf{\textit{Window Size}} (Window=14600 B): Pengirim menceritakan tentang kapasitas buffernya di mana ia harus menyimpan pesan dari penerima.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Mekanisme TCP \#3 - Pengiriman Data 2}
+	\justifying
+	2. TCP adalah protokol full-duplex sehingga pengirim dan penerima memerlukan \textbf{\textit{Window}} untuk menerima pesan dari satu sama lain.
+	\begin{itemize}
+		\item \textbf{\textit{Sequence Number}} (Seq=2000): Berisi nomor urut awal acak yang dihasilkan di sisi penerima.
+		\item  \textbf{\textit{SYN Flag}}(Syn=1): Meminta pengirim untuk menyinkronkan nomor urutnya dengan nomor urut yang disediakan di atas
+		\item \textbf{\textit{Maximum Segment SIze}} (MSS=500 B): Pengirim memberitahukan ukuran segmen maksimumnya
+		\item Karena MSSreceiver < MSSsender, kedua belah pihak menyetujui MSS minimum yaitu 500 B untuk menghindari fragmentasi paket di kedua ujungnya
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Mekanisme TCP \#3 - Pengiriman Data 3}
+	\justifying
+	3. Pengirim membuat balasan terakhir untuk pembentukan koneksi dengan cara berikut:
+	\begin{itemize}
+		\item  \textbf{\textit{Sequence Number}} (Seq=522): Karena nomor urut = 521 pada langkah pertama dan flag SYN menggunakan satu nomor urut, maka nomor urut berikutnya adalah 522.
+		\item \textbf{\textit{SYN Number}} (No. Ack=2001): Karena pengirim menerima paket SYN=1 dari penerima dengan nomor urut 2000, maka nomor urut berikutnya yang diharapkan adalah 2001.
+		\item \textbf{\textit{ACK Flag}} (ACK=1): Memberitahukan bahwa nomor ACK berisi urutan berikutnya yang diharapkan oleh pengirim.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Mekanisme TCP \#3 - Ilustrasi}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.51\textwidth}
+			\frame{\includegraphics[width=\textwidth]{tcp-data.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Mekanisme TCP \#4 - \textbf{\textit{Flags}}}
+	\justifying
+	Maka dalam protokol TCP memiliki fungsi kontrol dengan menggunakan \textbf{\textit{Flags}}:
+	\begin{itemize}
+		\item \textbf{\textit{Synchronization}} (SYN) – Digunakan pada langkah pertama fase pembentukan koneksi atau proses jabat tangan 3 arah antara dua host.
+		\item \textbf{\textit{Acknowledgement}} (ACK) – Digunakan untuk mengakui paket yang berhasil diterima oleh host.
+		\item \textbf{\textit{Finish}} (FIN) – Digunakan untuk meminta pemutusan koneksi
+		\item \textbf{\textit{Reset}} (RST) – Digunakan untuk mengakhiri koneksi jika pengirim RST merasa ada yang salah dengan koneksi TCP atau bahwa percakapan seharusnya tidak ada.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Kapan Menggunakan TCP?}
+	\justifying
+	Berikut ini adalah kunci penting untuk menggunakan TCP:
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item TCP berorientasi pada koneksi.
+			\item Menggunakan timeout, checksum, dan acknowledgement untuk mencegah dan memperbaiki kesalahan.
+			\item Paket data TCP memiliki nomor urut di header
+			\item Sangat ideal untuk transmisi point-to-point saja
+			\item Menggunakan informasi kontrol aliran untuk mengkalibrasi kecepatan transmisi data
+			\item Mengimplementasikan algoritma penghindaran kemacetan
+			\item Sangat andal
+		\end{itemize}
+	\end{multicols}	
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Protokol \textbf{\textit{User Datagram Protocol}}}
+	\justifying
+	User datagram protocol (UDP) adalah protokol komunikasi berorientasi pesan yang memungkinkan perangkat komputasi dan aplikasi untuk mengirim data melalui jaringan tanpa memverifikasi pengirimannya, yang paling cocok untuk komunikasi \textit{realtime} dan sistem \textit{broadcast}.
+	\vfill
+	Selain itu, tidak menjamin pengiriman paket data dari server. Ini biasanya disebut sebagai protokol "tembak-dan-lupakan" karena tidak peduli apakah klien menerima data atau tidak.
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Mekanisme UDP}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.9\textwidth}
+			\frame{\includegraphics[width=\textwidth]{udp.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Aplikasi UDP}
+	\justifying
+	UDP dapat digunakan untuk beberapa aplikasi seperti
+	\vfill
+	\begin{itemize}
+		\item Digunakan untuk komunikasi permintaan-tanggapan sederhana ketika ukuran data lebih kecil dan karenanya ada kekhawatiran yang lebih kecil tentang kontrol aliran dan kesalahan.
+		\item Untuk multicasting karena UDP mendukung packet switching.
+		\item UDP digunakan untuk beberapa protokol pembaruan perutean seperti RIP
+		\item Biasanya digunakan untuk aplikasi \textit{realtime} yang tidak dapat mentolerir \textit{delay} yang tidak merata
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{TCP atau UDP?}
+	\justifying
+	Kembali lagi pengguna, apakah ada data yang harus dikirim secara \textit{realtime} atau data harus valid dari A-Z. Hal-hal ini akan menentukan jenis protokol yang digunakan.
+	\vfill
+	Untuk perangkat sederhana seperti pengendali lampu, suhu, kelembaban dapat menggunakan protokol sederhana seperti UDP.
+	\vfill
+	Namun untuk data monitoring yang di mana data harus valid dan tidak boleh rusak, maka TCP yang harus digunakan.
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Layanan \textit{Messaging} IoT}
+	\justifying
+	Komponen perangkat lunak yang dapat digunakan oleh perangkat IoT dapat dilihat sebagai berikut:
+	\begin{itemize}
+		\item Blynk (Platform)
+		\item Cayenne (Platform)
+		\item KaaIoT (Platform)
+		\item Message Queueing Telemetry Transport
+		\item Telegram Bot
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Layanan \textit{Messaging} IoT \#1}
+	\justifying
+	Terdapat banyak layanan perpesanan yang dihadirkan oleh berbagai macam perusahaan. Dengan adanya layanan ini para pengguna IoT tidak perlu \textbf{mengkonfigurasikan} tempat penyimpanan pesan-pesan atau data yang diambil dari perangkat.
+	\vfill
+	Fitur inilah yang disebut dengan \textbf{\textit{IoT Platform}}. Platform IoT membantu memfasilitasi komunikasi, aliran data, manajemen perangkat, dan fungsionalitas aplikasi.
+	\vfill
+	Meski menghadirkan versi gratis, namun perangkat yang diizinkan sangat terbatas. Dengan menggunakan IoT Platform data tersimpan secara \textit{online} sehingga tidak perlu mengatur penyimpanan lokal
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Layanan \textit{Messaging} IoT \#2}
+	\justifying
+		\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.68\textwidth}
+			\frame{\includegraphics[width=\textwidth]{blynk.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Layanan \textit{Messaging} IoT \#3}
+	\justifying
+	\textbf{\textit{Message Queueing Telemetry Transport}} merupakan teknologi komunikasi dengan bantuan pihak ketiga sebagai penyalur informasi. Selain itu aplikasi ini sangat ringan dan cocok untuk mengirimkan data-data teks sederhana ke penerima.
+	\vfill
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.53\textwidth}
+			\frame{\includegraphics[width=\textwidth]{mqtt.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Layanan \textit{Messaging} IoT \#4}
+	\justifying
+	Telegram Bot merupakan alat komunikasi paling efektif dibandingkan lainnya. Selain dapat digunakan untuk komunikasi dua arah, aplikasi ini juga dapat digunakan untuk mengirimkan data multimedia seperti \textbf{\textit{Video}} maupun \textbf{\textit{Audio}}. Sehingga cocok digunakan untuk monitoring CCTV.
+	\vfill
+	\begin{block}{Info}
+		Sangat direkomendasikan untuk mengimplementasikan Telegram Bot di perangkat lain agar tidak mengganggu aktivitas dari perangkat sensor.
+	\end{block}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Ilustrasi}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.53\textwidth}
+			\frame{\includegraphics[width=\textwidth]{telegram-bot.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\setbeamertemplate{background} 
+{
+	\includegraphics[width=\paperwidth,height=\paperheight]{thank-you.jpg}
+}
+\begin{frame}[plain]
+\end{frame}

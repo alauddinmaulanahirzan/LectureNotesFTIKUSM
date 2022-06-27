@@ -1,0 +1,24 @@
+Manajemen Projek
+> Software Planning oleh Mahasiswa
+    > Planning (Requirement: Functional & Non-Functional)
+        >> Data Gathering
+        >> Market Finding
+    > Design
+        >> Data Design
+        >> Concept Model
+    > Prototyping
+    > Testing
+    > Deployment
+> Evaluation
+> Budget
+    >> Data Gathering Cost
+    >> Software Development Cost
+    >> Deployment Cost
+    >> Utility Cost
+> Organization
+    >> Direktor/Project Manager
+    >> Manager Fungsional
+        >> Financial
+        >> Technical
+        >> Human Relationship
+> Scheduling (Berdasarkan Planning Software)

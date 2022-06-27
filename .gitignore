@@ -1,0 +1,5 @@
+*.7z
+*.zip
+*~lock*
+*DS_Store
+~$*
