@@ -67,15 +67,145 @@
 
 \setbeamertemplate{frame footer}{Alauddin Maulana Hirzan, M. Kom - Universitas Semarang}
 
-\section{Ketentuan Perkuliahan}
+\section{Keamanan dan Privasi \textit{Internet of Things} \#1}
 \begin{frame}{\insertsectionhead}
-	\framesubtitle{Peraturan Dasar dan Ketentuan Lain}
+	\framesubtitle{Dunia \textit{Internet of Things} \#1}
 	\justifying
-
-
+	Semua perangkat \textit{Internet of Things} yang memanfaatkan koneksi internet akan dapat terhubung satu sama lain. Artinya, selain perangkat komoditas tradisional dan PC, semua jenis peralatan elektronik yang ada dapat diakses secara online.
+	\vfill
+	Sehingga sangat berbahaya sekali jika ada orang-orang pihak luar yang mencoba mengakses perangkat-perangkat tersebut.
+	\vfill
+	Dalam skenario dimana perangkat yang terhubung lebih masif, keamanan menjadi persyaratan yang sangat penting untuk dipenuhi.
 \end{frame}
 
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Dunia \textit{Internet of Things} \#2}
+	\justifying
+	  \begin{figure}[ht!]
+			\begin{subfigure}[b]{0.45\textwidth}
+					\frame{\includegraphics[width=\textwidth]{serangan.png}}
+				\end{subfigure}
+		\end{figure}
+	\vfill
+	\begin{block}{Info}
+		Setiap hari setidaknya ada lebih dari 100 kejadian pencurian data yang disebabkan oleh \textit{hacker} maupun \textit{malware}
+	\end{block}
+\end{frame}
 
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Dunia \textit{Internet of Things} \#3}
+	\justifying
+	Sistem IoT rentan terhadap sejumlah kerentanan keamanan, serangan tertentu, eksploitasi kelemahan dan inefisiensi protokol keamanan.
+	\vfill
+	Selain itu, vektor serangan tertentu dapat dengan mudah dieksploitasi di IoT karena dua alasan utama. 
+	\begin{itemize}
+		\item Pertama, sebagian besar perangkat IoT terhubung langsung ke Internet agar dapat dijangkau secara langsung, Sehingga mudah terlihat pada orang asing. 
+		\item Kedua, banyak perangkat IoT yang sumber dayanya terbatas, karena dilengkapi dengan jumlah memori, komputasi, dan sumber daya energi yang terbatas.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things}}
+	\justifying
+	Perangkat \textit{Internet of Things} juga memiliki kelemahan seperti komputer biasa sehingga serangan-serangan seperti berikut ini mampu melemahkan atau menghentikan sistem.
+	\begin{itemize}
+		\item \textbf{Man in The Middle}
+		\item \textbf{Botnet}
+		\item \textbf{IP Spoofing}
+		\item \textbf{DOS (Denial of Service)}
+		\item \textbf{Distributed Denial of Service}
+		\item \textbf{Worm}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Man in The Middle}}
+	\justifying
+	Serangan \textit{Man-in-The-Middle} adalah sebuah serangan yang di mana pihak luar berada di tengah-tengah perangkat pengguna dan perangkat tujuan. Sehingga pihak luar tersebut dapat mencegat, memantau bahkan mengontrol komunikasi yang ada.
+	\vfill
+	 \begin{figure}[ht!]
+		\begin{subfigure}[b]{0.55\textwidth}
+			\frame{\includegraphics[width=\textwidth]{mitm.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Botnet}}
+	\justifying
+	Botnet adalah kumpulan bot. Istilah ini juga mengacu pada malware yang dijalankan pada perangkat yang terhubung untuk mengubahnya menjadi bot. Sinonim: jaringan zombie
+	\vfill
+	 \begin{figure}[ht!]
+		\begin{subfigure}[b]{0.5\textwidth}
+			\frame{\includegraphics[width=\textwidth]{botnet.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{IP Spoofing}}
+	\justifying
+	Metode ini menggunakan alamat sumber palsu untuk memasukkan paket ke Internet dan merupakan salah satu cara untuk menyamarkannya sebagai pengguna lain.
+	\vfill
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.6\textwidth}
+			\frame{\includegraphics[width=\textwidth]{ip-spoof.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Denial of Service} \#1}
+	\justifying
+	Denial-of-Service adalah serangan kritis yang dapat membunuh jaringan korban atau infrastruktur TI dengan memblokir pengguna yang berwenang dari mengaksesnya.
+	\vfill
+	\begin{itemize}
+		\item \textbf{Bandwidth Flooding} : Melalui pengiriman kaskade paket, penyerang teroris dapat memblokir paket yang valid untuk mengakses server.
+		\item \textbf{Vulnerability Attacks} : Ketika beberapa pesan yang dibuat dengan baik dikirim ke sistem operasi yang tidak aman atau ke perangkat di server target, layanan gagal atau memburuk jika host runtuh.
+		\item \textbf{Connection Flooding} : Dengan membuat sejumlah besar koneksi TCP di server yang ditargetkan, penyerang menjadi macet
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Denial of Service} \#2}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.6\textwidth}
+			\frame{\includegraphics[width=\textwidth]{dos.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Distributed Denial of Service} \#1}
+	\justifying
+	Serangan DDOS adalah versi yang rumit dan jauh lebih sulit untuk dideteksi dan dilindungi daripada serangan DOS biasa. Penyerang menggunakan beberapa sistem yang dikompromikan untuk menargetkan satu sistem serangan dos yang ditargetkan. Dalam penyerangan ini. Serangan dari DDOS bahkan mengangkat botnet.
+	\vfill
+	\begin{block}{Info}
+		DDOS menggunakan beberapa komputer yang di-remote untuk melakukan sekaligus. Sehingga menjadi sangat berbahaya jika menerimanya
+	\end{block}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Distributed Denial of Service} \#2}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.7\textwidth}
+			\frame{\includegraphics[width=\textwidth]{ddos.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Worm}}
+	Jika pengguna menjalankan program jaringan yang rentan, penyerang malware dapat mengirim malware ke aplikasi tersebut pada koneksi Internet yang sama. Aplikasi akan menerima dan mengeksekusi malware dari internet untuk membangun worm.
+	\vfill
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.4\textwidth}
+			\frame{\includegraphics[width=\textwidth]{worm.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
 
 \setbeamertemplate{background} 
 {
