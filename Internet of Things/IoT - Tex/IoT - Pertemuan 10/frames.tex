@@ -119,7 +119,7 @@
 \end{frame}
 
 \begin{frame}{\insertsectionhead}
-	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Man in The Middle}}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Man in The Middle} \#1}
 	\justifying
 	Serangan \textit{Man-in-The-Middle} adalah sebuah serangan yang di mana pihak luar berada di tengah-tengah perangkat pengguna dan perangkat tujuan. Sehingga pihak luar tersebut dapat mencegat, memantau bahkan mengontrol komunikasi yang ada.
 	\vfill
@@ -131,7 +131,55 @@
 \end{frame}
 
 \begin{frame}{\insertsectionhead}
-	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Botnet}}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Man in The Middle} \#2}
+	\justifying
+	Ciri khas dari Serangan man-in-the-middle:
+	\vfill
+	\begin{itemize}
+		\item Jenis pembajakan sesi pengguna
+		\item Melibatkan penyerang yang memasukkan diri mereka sebagai relai atau proxy dalam percakapan atau transfer data yang berkelanjutan dan asli
+		\item Memanfaatkan sifat percakapan dan transfer data real-time agar tidak terdeteksi
+		\item Mengizinkan penyerang untuk mencegat data rahasia
+		\item Mengizinkan penyerang memasukkan data dan tautan berbahaya dengan cara yang tidak dapat dibedakan dari data yang asli
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Man in The Middle} \#3}
+	\justifying
+	Skenario yang bisa terjadi dalam MITM berdasarkan \textbf{veracode.com}:
+	\vfill
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.8\textwidth}
+			\frame{\includegraphics[width=\textwidth]{mitm-1.png}}
+		\end{subfigure}
+	\end{figure}
+	\vfill
+	\begin{itemize}
+		\item Penyerang menganalisis lalu lintas jaringan untuk komunikasi yang tidak aman.
+		\item Saat pengguna masuk ke sebuah situs, penyerang membaca dan mengarahkan ke situs palsu
+		\item Situs palsu mengumpulkan data dari pengguna, dan digunakan di situs asli
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Man in The Middle} \#4}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.8\textwidth}
+			\frame{\includegraphics[width=\textwidth]{mitm-2.png}}
+		\end{subfigure}
+	\end{figure}
+	\vfill
+	\begin{itemize}
+		\item Penyerang membuat lobrolan palsu yang meniru layanan bank asli
+		\item Menggunakan data yang dicegat dalam skenario pertama, penyerang berpura-pura menjadi bank dan memulai obrolan dengan target.
+		\item Penyerang kemudian memulai obrolan di situs bank asli, berpura-pura menjadi target untuk mendapatkan akses ke akun target.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Botnet} \#1}
 	\justifying
 	Botnet adalah kumpulan bot. Istilah ini juga mengacu pada malware yang dijalankan pada perangkat yang terhubung untuk mengubahnya menjadi bot. Sinonim: jaringan zombie
 	\vfill
@@ -140,6 +188,20 @@
 			\frame{\includegraphics[width=\textwidth]{botnet.jpg}}
 		\end{subfigure}
 	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Botnet} \#2}
+	\justifying
+	\begin{itemize}
+		\item Tahap 1 - Mempersiapkan dan Mengekspos kelemahan
+		\item Tahap 2 - Menginfeksi pengguna melalui malware
+		\item Tahap 3 - Mengontrol perangkat yang ditargetkan
+	\end{itemize}
+	\vfill
+	\begin{block}{Info}
+		Botnet adalah awal mula dari serangan DDOS
+	\end{block}
 \end{frame}
 
 \begin{frame}{\insertsectionhead}
@@ -198,6 +260,7 @@
 
 \begin{frame}{\insertsectionhead}
 	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Worm}}
+	\justifying
 	Jika pengguna menjalankan program jaringan yang rentan, penyerang malware dapat mengirim malware ke aplikasi tersebut pada koneksi Internet yang sama. Aplikasi akan menerima dan mengeksekusi malware dari internet untuk membangun worm.
 	\vfill
 	\begin{figure}[ht!]
