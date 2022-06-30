@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2022.6.29)  29 JUN 2022 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2022.6.15)  30 JUN 2022 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1617,39 +1617,25 @@ Package pdftex.def Info: figures//logo_usm.png  used on input line 239.
  <./figures//dos.png>]
 File: figures//logo_usm.png Graphic file (type png)
 <use figures//logo_usm.png>
-Package pdftex.def Info: figures//logo_usm.png  used on input line 249.
+Package pdftex.def Info: figures//logo_usm.png  used on input line 251.
 (pdftex.def)             Requested size: 20.0pt x 22.66763pt.
  [16
 
 ]
-<figures//ddos.png, id=139, 1246.6575pt x 703.62875pt>
-File: figures//ddos.png Graphic file (type png)
-<use figures//ddos.png>
-Package pdftex.def Info: figures//ddos.png  used on input line 259.
-(pdftex.def)             Requested size: 286.80058pt x 161.87415pt.
-
-Overfull \vbox (12.96819pt too high) detected at line 259
- []
-
 File: figures//logo_usm.png Graphic file (type png)
 <use figures//logo_usm.png>
-Package pdftex.def Info: figures//logo_usm.png  used on input line 259.
+Package pdftex.def Info: figures//logo_usm.png  used on input line 261.
 (pdftex.def)             Requested size: 20.0pt x 22.66763pt.
-[17
+ [17
 
- <./figures//ddos.png (PNG copy)>]
-Overfull \hbox (0.3414pt too wide) in paragraph at lines 271--271
-[]\T1/SourceSansPro-TLF/regular/n/10.95 Jika peng-guna men-jalankan pro-gram ja
-ringan yang rentan, peny-erang mal-ware da-pat men-
- []
+]
+<figures//ddos.png, id=145, 1246.6575pt x 703.62875pt>
+File: figures//ddos.png Graphic file (type png)
+<use figures//ddos.png>
+Package pdftex.def Info: figures//ddos.png  used on input line 271.
+(pdftex.def)             Requested size: 286.80058pt x 161.87415pt.
 
-<figures//worm.png, id=146, 1057.9525pt x 672.5125pt>
-File: figures//worm.png Graphic file (type png)
-<use figures//worm.png>
-Package pdftex.def Info: figures//worm.png  used on input line 271.
-(pdftex.def)             Requested size: 163.88426pt x 104.17679pt.
-
-Overfull \vbox (10.12933pt too high) detected at line 271
+Overfull \vbox (12.96819pt too high) detected at line 271
  []
 
 File: figures//logo_usm.png Graphic file (type png)
@@ -1658,13 +1644,96 @@ Package pdftex.def Info: figures//logo_usm.png  used on input line 271.
 (pdftex.def)             Requested size: 20.0pt x 22.66763pt.
 [18
 
+ <./figures//ddos.png (PNG copy)>]
+Overfull \hbox (0.3414pt too wide) in paragraph at lines 283--283
+[]\T1/SourceSansPro-TLF/regular/n/10.95 Jika peng-guna men-jalankan pro-gram ja
+ringan yang rentan, peny-erang mal-ware da-pat men-
+ []
+
+<figures//worm.png, id=152, 1057.9525pt x 672.5125pt>
+File: figures//worm.png Graphic file (type png)
+<use figures//worm.png>
+Package pdftex.def Info: figures//worm.png  used on input line 283.
+(pdftex.def)             Requested size: 163.88426pt x 104.17679pt.
+
+Overfull \vbox (10.12933pt too high) detected at line 283
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 283.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[19
+
  <./figures//worm.png (PNG copy)>]
-<figures//thank-you.jpg, id=153, 834.4776pt x 419.8887pt>
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 294.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [20
+
+]
+Overfull \hbox (8.57538pt too wide) in paragraph at lines 305--305
+[]\T1/SourceSansPro-TLF/regular/n/10.95 Pengaman se-cara fisik mampu mence-gah 
+perangkat dari hal-hal yang tidak di-inginkan seperti
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 305.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[21
+
+]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 322.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [22
+
+]
+<figures//weather-station.jpg, id=179, 3613.5pt x 2258.4375pt>
+File: figures//weather-station.jpg Graphic file (type jpg)
+<use figures//weather-station.jpg>
+Package pdftex.def Info: figures//weather-station.jpg  used on input line 332.
+(pdftex.def)             Requested size: 258.12366pt x 161.31165pt.
+
+Overfull \vbox (12.40569pt too high) detected at line 332
+ []
+
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 332.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+[23
+
+ <./figures//weather-station.jpg>]
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 344.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [24
+
+]
+<figures//firewall.png, id=192, 594.22pt x 156.585pt>
+File: figures//firewall.png Graphic file (type png)
+<use figures//firewall.png>
+Package pdftex.def Info: figures//firewall.png  used on input line 354.
+(pdftex.def)             Requested size: 409.71692pt x 107.96968pt.
+File: figures//logo_usm.png Graphic file (type png)
+<use figures//logo_usm.png>
+Package pdftex.def Info: figures//logo_usm.png  used on input line 354.
+(pdftex.def)             Requested size: 20.0pt x 22.66763pt.
+ [25
+
+ <./figures//firewall.png>]
+<figures//thank-you.jpg, id=201, 834.4776pt x 419.8887pt>
 File: figures//thank-you.jpg Graphic file (type jpg)
 <use figures//thank-you.jpg>
-Package pdftex.def Info: figures//thank-you.jpg  used on input line 278.
+Package pdftex.def Info: figures//thank-you.jpg  used on input line 361.
 (pdftex.def)             Requested size: 455.24603pt x 256.08047pt.
- [19
+
+[26
 
  <./figures//thank-you.jpg>])
 \tf@nav=\write6
@@ -1676,16 +1745,15 @@ Package pdftex.def Info: figures//thank-you.jpg  used on input line 278.
 \tf@snm=\write8
 \openout8 = `"IoT - Pertemuan 10.snm"'.
 
-
-(./IoT - Pertemuan 10.aux (./frames.aux))
+ (./IoT - Pertemuan 10.aux (./frames.aux))
 Package rerunfilecheck Info: File `"IoT - Pertemuan 10".out' has not changed.
 (rerunfilecheck)             Checksum: 801B659313C99DEB7178E5EB362AF063;274.
  ) 
 Here is how much of TeX's memory you used:
- 26780 strings out of 480954
- 511416 string characters out of 5905050
- 784918 words of memory out of 5000000
- 43335 multiletter control sequences out of 15000+600000
+ 26818 strings out of 480954
+ 511894 string characters out of 5908242
+ 784919 words of memory out of 5000000
+ 43359 multiletter control sequences out of 15000+600000
  547731 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  131i,15n,132p,1860b,965s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1694,10 +1762,10 @@ Here is how much of TeX's memory you used:
 xmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb></usr/share/
 texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb></usr/sha
 re/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "IoT - Pertemuan 10.pdf" (19 pages, 9949614 bytes).
+Output written on "IoT - Pertemuan 10.pdf" (26 pages, 11631593 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

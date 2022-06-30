@@ -200,7 +200,7 @@
 	\end{itemize}
 	\vfill
 	\begin{block}{Info}
-		Botnet adalah awal mula dari serangan DDOS
+		Botnet adalah awal mula dari serangan DDOS. Semua perangkat IoT dengan kekuatan komputas dapat diambil alih dan dijadikan alat DDOS
 	\end{block}
 \end{frame}
 
@@ -239,6 +239,18 @@
 \end{frame}
 
 \begin{frame}{\insertsectionhead}
+	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Denial of Service} \#3}
+	\textbf{Bandwdith Flooding} merupakan Penyerang mengirim begitu banyak paket sehingga tautan akses target menjadi tersumbat, mencegah paket yang sah mencapai server.
+	\vfill
+	Teknik ini membuat jaringan menjadi penuh dengan paket-paket sampah dan membuat \textit{bandwidth} menjadi habis dan tidak mungkin dilalui oleh paket asli.
+	\vfill
+	\begin{block}{Info}
+		Teknik ini sangat umum untuk digunakan melumpuhkan jaringan IoT yang banyak mengirimkan pesan-pesan monitoring perangkat
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
 	\framesubtitle{Serangan Keamanan \textit{Internet of Things} - \textit{Distributed Denial of Service} \#1}
 	\justifying
 	Serangan DDOS adalah versi yang rumit dan jauh lebih sulit untuk dideteksi dan dilindungi daripada serangan DOS biasa. Penyerang menggunakan beberapa sistem yang dikompromikan untuk menargetkan satu sistem serangan dos yang ditargetkan. Dalam penyerangan ini. Serangan dari DDOS bahkan mengangkat botnet.
@@ -266,6 +278,77 @@
 	\begin{figure}[ht!]
 		\begin{subfigure}[b]{0.4\textwidth}
 			\frame{\includegraphics[width=\textwidth]{worm.png}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{\textit{What To Do?}}
+	\justifying
+	Untuk melindungi perangkat IoT yang terpasang, ada beberapa hal yang dapat dilakukan seperti:
+	\vfill
+	\begin{itemize}
+		\item Pengamanan Fisik : Cara ini dilakukan untuk mencegah perangkat-perangkat dari gangguan eksternal termasuk pencurian maupun hal-hal lainnya
+		\item Pengamanan Digital : Cara ini dilakukan untuk mencegah pencurian maupun kerusakan data yang disebabkan oleh serangan internet
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pengamanan Fisik \#1}
+	\justifying
+	Pengaman secara fisik mampu mencegah perangkat dari hal-hal yang tidak diinginkan seperti pencurian perangkat, perusakan perangkat, kemasukkan debu, korsleting karena hujan dan lain-lain.
+	\vfill
+	Sehingga sangat penting untuk membuatkan \textit{case} atau wadah yang dapat digunakan untuk menutup perangkat.
+	\begin{block}{Info}
+		Sebagian perangkat IoT tidak memiliki box secara default, sehingga pengguna harus membeli atau membuat sendiri box yang sesuai dengan kebutuhan mereka.
+	\end{block}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pengamanan Fisik \#2}
+	\justifying
+	Bagaimana cara menentukan wadah yang tepat? Perhatikan aspek berikut:
+	\vfill
+	\begin{itemize}
+		\item Lokasi pemasangan alat
+		\item Ekspos dari udara lembab, air asin, atau bahan kimia korosif
+		\item Ekspos dari debu, benda kotor lainnya
+		\item Digunakan untuk pribadi, industri, atau penelitian
+		\item Perlu pendingin
+		\item Adanya antena
+		\item Transparansi wadah diperlukan
+		\item \textit{Form Factor} perangkat
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pengamanan Fisik \#3}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{0.63\textwidth}
+			\frame{\includegraphics[width=\textwidth]{weather-station.jpg}}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pengamanan Digital \#1}
+	\justifying
+	Cara ini digunakan untuk melindungi perangkat-perangkat yang terhubung ke Internet. Sebaiknya memasang perangkat lunak seperti:
+	\vfill
+	\begin{itemize}
+		\item \textit{Firewall}
+		\item \textit{Intrusion Detection System}
+		\item \textit{VPN}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pengamanan Digital \#2}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{1\textwidth}
+			\frame{\includegraphics[width=\textwidth]{firewall.png}}
 		\end{subfigure}
 	\end{figure}
 \end{frame}
