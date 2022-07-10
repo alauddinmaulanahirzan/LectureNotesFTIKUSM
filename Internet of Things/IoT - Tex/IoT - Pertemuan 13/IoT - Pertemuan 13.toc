@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{Teknologi \textit {Smart Home} Berbasis \textit {Internet of Things}}{2}{0}{1}
+\beamer@sectionintoc {2}{Teknologi \textit {Smart City} Berbasis \textit {Internet of Things}}{18}{0}{2}
