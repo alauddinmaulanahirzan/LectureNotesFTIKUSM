@@ -67,15 +67,247 @@
 
 \setbeamertemplate{frame footer}{Alauddin Maulana Hirzan, M. Kom - Universitas Semarang}
 
-\section{Ketentuan Perkuliahan}
+\section{\textit{Internet of Things} dan \textit{Fog Computing}}
 \begin{frame}{\insertsectionhead}
-	\framesubtitle{Peraturan Dasar dan Ketentuan Lain}
+	\framesubtitle{Apa itu \textit{Fog Computing}? \#1}
 	\justifying
-
-
+	Dikutip dari \textbf{\textit{www.spiceworks.com}}, \textit{Fog Computing} adalah
+	\vfill
+	\begin{quote}
+		Infrastruktur terdesentralisasi yang menempatkan komponen penyimpanan dan pemrosesan di tepi cloud, di mana sumber data seperti pengguna aplikasi dan sensor ada.
+	\end{quote}
+	\vfill
+	Sumber : https://www.spiceworks.com/tech/edge-computing/articles/ \\
+	what-is-fog-computing/
 \end{frame}
 
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa itu \textit{Fog Computing}? \#2}
+	\justifying
+	 \begin{figure}[ht!]
+			\begin{subfigure}[b]{0.75\textwidth}
+					\frame{\includegraphics[width=\textwidth]{fog-computing.jpg}}
+				\end{subfigure}
+		\end{figure}
+\end{frame}
 
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa itu \textit{Fog Computing}? \#3}
+	\justifying
+	\textit{Fog Computing} memiliki hierarki arsitektur perangkat yang menyusun elemen-elemen yang ada di dalamnya seperti:
+	\vfill
+	\begin{itemize}
+		\item 1. Terminal Layer adalah lapisan dasar dalam arsitektur kabut, lapisan ini mencakup perangkat seperti ponsel, sensor, kendaraan pintar, pembaca, kartu pintar, dll.
+		\item 2. Lapisan Kabut mencakup perangkat seperti router, gateway, titik akses, stasiun pangkalan, server kabut khusus, dll., yang disebut sebagai node Kabut. Node kabut dapat menghitung, mentransfer, dan menyimpan data sementara.
+		\item 3. Cloud Layer terdiri dari perangkat yang dapat menyediakan penyimpanan besar dan mesin (server) dengan kinerja tinggi. Juga melakukan analisis komputasi dan menyimpan data secara permanen.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa itu \textit{Fog Computing}? \#4}
+	\justifying
+	Sedangkan untuk hierarki secara perangkat lunak, arsitektur kabut berlapis terdiri dari enam lapisan:
+	\vfill
+	\begin{itemize}
+		\item 1. Lapisan Fisik dan Virtualisasi
+		\item 2. Lapisan Pemantauan
+		\item 3. Lapisan Pra-pemrosesan
+		\item 4. Lapisan Penyimpanan Sementara
+		\item 5. Lapisan Keamanan
+		\item 6. Lapisan Transportasi
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa itu \textit{Fog Computing}? \#5 - Lapisan Fisik dan Virtualisasi}
+	\justifying
+	\begin{itemize}
+		\item Lapisan ini terdiri dari node (Fisik dan virtual). Node melakukan tugas utama menangkap data dan terletak di lokasi yang berbeda. Node biasanya melibatkan teknologi penginderaan untuk menangkap lingkungan mereka.
+		\item Sensor yang digunakan pada node ini mengumpulkan data dari sekitarnya dan mengumpulkan data yang kemudian dikirim ke lapisan atas melalui gateway untuk diproses lebih lanjut.
+		\item Node dapat berupa perangkat yang berdiri sendiri seperti ponsel atau dapat menjadi bagian dari perangkat besar seperti sensor suhu yang dipasang di dalam kendaraan.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa itu \textit{Fog Computing}? \#6 - Lapisan Pemantauan}
+	\justifying
+	\begin{itemize}
+		\item Di lapisan ini perangkat melakukan pemantauan yang terkait dengan berbagai tugas.
+		\item Node dapat dipantau untuk jumlah waktu mereka bekerja, suhu dan sifat fisik lainnya yang mereka miliki, masa pakai baterai maksimum perangkat, dll.
+		\item Kinerja aplikasi serta statusnya saat ini juga dipantau.
+		\item Node diperiksa untuk konsumsi energi mereka, jumlah daya baterai yang mereka konsumsi saat melakukan tugas mereka.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa itu \textit{Fog Computing}? \#7 - Lapisan Pra-pemrosesan}
+	\justifying
+	\begin{itemize}
+		\item Lapisan ini melakukan berbagai operasi data terutama terkait dengan analisis.	
+		\item Data dibersihkan dan diperiksa untuk setiap data yang tidak diinginkan yang ada. Pengotor data dihapus dan hanya data yang berguna yang dikumpulkan.
+		\item Analisis data pada lapisan ini dapat melibatkan penggalian informasi yang bermakna dan relevan dari sejumlah besar data yang dikumpulkan oleh perangkat akhir. Analisis data adalah salah satu fitur penting yang harus dipertimbangkan sebelum data digunakan untuk tujuan tertentu.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa itu \textit{Fog Computing}? \#8 - Lapisan Penyimpanan Sementara}
+	\justifying
+	\begin{itemize}
+		\item Lapisan ini dikaitkan dengan distribusi dan replikasi data yang tidak permanen.
+		\item Virtualisasi penyimpanan seperti VSAN digunakan di lapisan ini.
+		\item Data dihapus dari lapisan sementara setelah data dipindahkan ke awan, dari lapisan ini.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa itu \textit{Fog Computing}? \#9 - Lapisan Keamanan}
+	\justifying
+	\begin{itemize}
+		\item Lapisan ini terlibat dengan privasi data, integritas data, enkripsi, dan dekripsi data.
+		\item Privasi dalam kasus data komputasi kabut dapat mencakup privasi berbasis penggunaan, privasi berbasis data, dan privasi berbasis lokasi.
+		\item Lapisan keamanan memastikan keamanan dan pelestarian privasi untuk data yang dialihdayakan ke node kabut.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Apa itu \textit{Fog Computing}? \#9 - Lapisan Transportasi}
+	\justifying
+	\begin{itemize}
+		\item Fungsi utama lapisan ini adalah mengunggah data aman yang sebagian diproses dan berbutir halus ke lapisan awan untuk penyimpanan permanen. Untuk tujuan efisiensi, sebagian data dikumpulkan dan diunggah.
+		\item Data dilewatkan melalui smart-gateway sebelum diunggah ke cloud. Protokol komunikasi yang digunakan dipilih untuk menjadi ringan, dan efisien, karena sumber daya komputasi kabut yang terbatas.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pentingnya \textit{Fog Computing} untuk \textit{Internet of Things} \#1}
+	\justifying
+	\textbf{Masalah?}
+	\vfill
+	Pendekatan populer saat ini adalah memusatkan pemrosesan data cloud dalam satu situs, menghasilkan biaya yang lebih rendah dan keamanan aplikasi yang kuat. Tetapi dengan banyaknya data input yang akan diterima dari sumber yang didistribusikan secara global, struktur pemrosesan pusat ini akan memerlukan cadangan.
+	\vfill
+	Sebagian besar data didorong ke cloud, disimpan dan dianalisis, setelah itu keputusan dibuat dan tindakan diambil. Namun sistem ini tidak efisien, untuk membuatnya efisien, perlu untuk memproses beberapa data atau beberapa data besar dalam kasus IoT dengan cara yang cerdas, terutama jika itu adalah data yang sensitif dan perlu tindakan cepat.
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pentingnya \textit{Fog Computing} untuk \textit{Internet of Things} \#2}
+	\justifying
+	\textbf{Solusi?}
+	\vfill
+	\textbf{\textit{Fog Computing}} memungkinkan komputasi, pengambilan keputusan, dan pengambilan tindakan terjadi melalui perangkat IoT dan hanya mendorong data yang relevan ke cloud. \textbf{\textit{Cisco}} menciptakan istilah “Komputasi kabut”: “\textbf{Komputasi Kabut} mendekatkan perangkat-perangkat IoT ke \textbf{Komputasi Awan} sehingga bisa menghasilkan data dan tindakan berdasar-kan data tersebut. 
+	\vfill
+	Perangkat-perangkat yang ada di kabut ini, yang disebut titik kabut yang dapat digunakan di mana saja dengan koneksi jaringan: di lantai pabrik, di atas tiang listrik, di sepanjang rel kereta api, di dalam kendaraan, atau di anjungan minyak.
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pentingnya \textit{Fog Computing} untuk \textit{Internet of Things} \#3}
+	\justifying
+	Untuk memahami konsep komputasi kabut, tindakan berikut mendefinisikan komputasi kabut:
+	\vfill
+	\begin{itemize}
+		\item Menganalisis data yang paling sensitif terhadap waktu di tepi jaringan, dekat dengan tempat data itu dihasilkan, alih-alih mengirim data IoT dalam jumlah besar ke cloud.
+		\item Bertindak pada data IoT dalam milidetik, berdasarkan kebijakan.
+		\item Mengirim data yang dipilih ke cloud untuk analisis historis dan penyimpanan jangka panjang.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pentingnya \textit{Fog Computing} untuk \textit{Internet of Things} \#4}
+	\justifying
+	\begin{figure}[ht!]
+		\begin{subfigure}[b]{1.0\textwidth}
+			\frame{\includegraphics[width=\textwidth]{fog-computing2.jpg}}
+			\caption*{Cisco}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pentingnya \textit{Fog Computing} untuk \textit{Internet of Things} \#5}
+	\justifying
+	Manfaat menggunakan Komputasi Kabut:
+	\vfill
+	\begin{itemize}
+		\item Minimalkan latensi dan menghemat bandwidth jaringan
+		\item Atasi masalah keamanan di semua tingkat jaringan
+		\item Beroperasi dengan andal dengan keputusan cepat
+		\item Kumpulkan dan amankan berbagai macam data
+		\item Memindahkan data ke tempat terbaik untuk diproses
+		\item Biaya lebih rendah untuk menggunakan daya komputasi tinggi hanya saat dibutuhkan dan bandwidth lebih sedikit
+		\item Analisis dan wawasan yang lebih baik dari data lokal
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pentingnya \textit{Fog Computing} untuk \textit{Internet of Things} \#6}
+	\justifying
+	Namun memiliki kekurangan berupa:
+	\vfill
+	\begin{itemize}
+		\item Sulit bagi perangkat sembarang untuk bertukar data pada jaringan komputasi kabut.
+		\item Ada masalah keamanan karena penggunaan luas jaringan nirkabel berbasis IoT, spoofing alamat IP, dll.
+		\item Konsistensi data dan manajemen data dalam komputasi kabut adalah sebuah tantangan.
+		\item Kepercayaan dan otentikasi menjadi perhatian utama.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Pentingnya \textit{Fog Computing} untuk \textit{Internet of Things} \#7}
+	\justifying
+	\begin{itemize}
+		\item Penjadwalan rumit karena tugas dapat berpindah di antara klien, node kabut, dan server ujung belakang.
+		\item Konsumsi daya lebih tinggi karena arsitektur yang tidak terpusat.
+	\end{itemize}
+	\vfill
+	\begin{block}{Info}
+		Sangat wajar apabila sebuah teknologi memiliki kelebihan dan kelemahan. Sehingga dari kelemahan itulah dapat dibuatkan versi yang lebih baik untuk dimanfaatkan semua orang
+	\end{block}
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Peran \textit{Fog Computing} untuk \textit{Internet of Things} \#1}
+	\justifying
+	Komputasi kabut telah muncul sebagai alternatif metode tradisional penanganan data. Komputasi kabut mengumpulkan dan mendistribusikan sumber daya dan layanan komputasi, penyimpanan, dan konektivitas jaringan. Ini secara signifikan mengurangi konsumsi energi, meminimalkan kompleksitas ruang dan waktu, dan memaksimalkan utilitas dan kinerja data ini.
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Peran \textit{Fog Computing} untuk \textit{Internet of Things} \#2}
+	\justifying
+	Bagaimana \textit{Fog Computing} ini dapat meningkatkan nilai-nilai yang ada di dalam \textit{Internet of Things}?
+	\vfill
+	1. Streaming video
+	\vfill
+	Transmisi data dalam aplikasi streaming video diatur dengan baik di platform fog. Karena elastisitas dan kapasitas jaringan kabut yang dikombinasikan dengan analisis data real-time. Selain itu, fog meningkatkan komunikasi pada sistem terstruktur desktop virtual, sehingga memungkinkan analitik data video real-time dilakukan untuk kamera pengintai.
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Peran \textit{Fog Computing} untuk \textit{Internet of Things} \#3}
+	\justifying
+	2. Sistem pemantauan layanan kesehatan
+	\vfill
+	Keputusan perawatan kesehatan yang cerdas di masa depan tidak akan lengkap tanpa pengamatan dan pemantauan kesehatan yang kuat dan real-time. Namun, hal ini dapat dimungkinkan dengan penerapan kerangka kerja komputasi kabut yang memungkinkan transmisi data secara real-time.
+	\vfill
+	Kasus penggunaan penting lainnya adalah memperkuat aplikasi "U-Fall", yang tanpa sadar mendeteksi penurunan ekstensif dalam kasus stroke ringan.
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Peran \textit{Fog Computing} untuk \textit{Internet of Things} \#4}
+	\justifying
+	3. Permainan
+	\vfill
+	Sama seperti cloud, komputasi kabut membawa kekuatan lebih dekat ke para gamer. Misalnya, sistem permainan kabut SEGA menggunakan pusat permainan lokal dan arcade sebagai server farm untuk memastikan latensi rendah.
+	\vfill
+	Jadi, alih-alih streaming dari cloud, gamer akan memanfaatkan kekuatan CPU dari peralatan arcade lokal. Perangkat terdistribusi menggunakan titik kabut untuk kualitas pengalaman yang lebih baik dengan memastikan game online multipemain yang lancar.
+\end{frame}
+
+\begin{frame}{\insertsectionhead}
+	\framesubtitle{Peran \textit{Fog Computing} untuk \textit{Internet of Things} \#4}
+	\justifying
+	4. Sistem Lampu Lalu Lintas Cerdas
+	\vfill
+	Bayangkan ada sistem lampu lalu lintas yang cerdas. Nodenya berinteraksi secara lokal dengan banyak sensor untuk mendeteksi keberadaan pengendara sepeda motor dan pejalan kaki serta mengukur kecepatan dan jarak kendaraan. Berdasarkan informasi tersebut, ia mengirimkan sinyal peringatan ke mobil melalui lampu hijau.
+	\vfill
+	Dalam contoh lain, karena sudah memantau kamera pengintai video, mudah untuk menemukan ambulans melalui alarm peringatan dan lampu daruratnya. Lampu lalu lintas dapat diubah untuk memungkinkan mereka melewati lalu lintas.
+\end{frame}
 
 \setbeamertemplate{background} 
 {
