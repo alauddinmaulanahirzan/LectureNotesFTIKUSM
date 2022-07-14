@@ -1,0 +1,14 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Features}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}\texttt {sleek}}{2}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Mathematics}{2}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Units}{3}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Lists}{3}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Figures}{4}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Tables}{5}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}\texttt {sleek-title}}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}\texttt {sleek-theorems}}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.4}\texttt {sleek-listings}}{9}{section.2.4}%
+\contentsline {chapter}{\numberline {A}Tables}{10}{appendix.A}%
