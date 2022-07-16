@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2022.6.15)  21 JUN 2022 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2022.6.29)  15 JUL 2022 20:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1402,24 +1402,24 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1477,7 +1477,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 46.
+Package hyperref Info: Link coloring ON on input line 104.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1490,9 +1490,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count523
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -1532,27 +1532,27 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 46.
-Package biblatex Info: Reference segment=0 on input line 46.
+Package biblatex Info: Reference section=0 on input line 104.
+Package biblatex Info: Reference segment=0 on input line 104.
 (/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
 \c@lstlisting=\count524
-LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 104
+.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 104
+.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 4
-6.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 1
+04.
 
 (/usr/share/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
@@ -1589,28 +1589,28 @@ File: uesint.fd
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<./resources/pdf/logo.pdf, id=55, 2832.5825pt x 3212.0pt>
+<./resources/pdf/logo.pdf, id=67, 2832.5825pt x 3212.0pt>
 File: ./resources/pdf/logo.pdf Graphic file (type pdf)
 <use ./resources/pdf/logo.pdf>
-Package pdftex.def Info: ./resources/pdf/logo.pdf  used on input line 47.
+Package pdftex.def Info: ./resources/pdf/logo.pdf  used on input line 105.
 (pdftex.def)             Requested size: 92.92659pt x 105.41316pt.
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 47--47
+Overfull \hbox (30.0pt too wide) in paragraph at lines 105--105
 [][] 
  []
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 47.
+(mdframed)              on input line 105.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 47.
+ mdframed uses option nobreak mdframed on input line 105.
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 47--47
+Overfull \hbox (30.0pt too wide) in paragraph at lines 105--105
 []$[]$ 
  []
 
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 47--47
+Overfull \hbox (30.0pt too wide) in paragraph at lines 105--105
 [][] 
  []
 
@@ -1619,188 +1619,211 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 47--47
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./resources/pdf/logo.pdf>]
- (./main.toc
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 5.
-
- (/usr/share/texmf-dist/tex/latex/inconsolata/t1zi4.fd
-File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 5.
-)
+ (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
  [1
 
 
-]
-Chapter 1.
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 56.
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 56.
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 62.
-
-
-LaTeX Warning: Citation 'pakin2020comprehensive' on page 1 undefined on input l
-ine 62.
+] (./main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.64     \chapter
-                 {Features} [1
+l.113     \chapter
+                  {Pendahuluan} [1
 
 ]
-Chapter 2.
-LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 17.28pt on input line 66.
-
-LaTeX Warning: Citation 'pakin2020comprehensive' on page 2 undefined on input l
-ine 82.
-
-
-Overfull \hbox (13.018pt too wide) in paragraph at lines 89--90
-[]\T1/cmr/m/n/12 Here are some ex-am-ples show-cas-ing what is pos-si-ble with 
-the de-fault pack-ages of \T1/zi4/m/n/12 sleek\T1/cmr/m/n/12 . 
- []
-
+Bab 1.
+<figures/delta.png, id=128, 803.0pt x 311.1625pt>
+File: figures/delta.png Graphic file (type png)
+<use figures/delta.png>
+Package pdftex.def Info: figures/delta.png  used on input line 121.
+(pdftex.def)             Requested size: 455.24411pt x 176.41013pt.
 [2
 
-] [3pdfTeX warning (ext4): destination with the same identifier (name{equation.
-2.1.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.150     O
-           ne could want to reduce the space between items with the \texttt{...
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1.
-2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.150     O
-           ne could want to reduce the space between items with the \texttt{...
-]
-Overfull \hbox (2.20793pt too wide) in paragraph at lines 173--175
-[]\T1/cmr/m/n/12 Elit scelerisque mau-ris pel-len-tesque pul-v-inar pel-len-tes
-que habi-tant morbi tris-tique senec-
+ <./figures/delta.png>]
+<figures/snapshots.png, id=138, 803.0pt x 306.14375pt>
+File: figures/snapshots.png Graphic file (type png)
+<use figures/snapshots.png>
+Package pdftex.def Info: figures/snapshots.png  used on input line 130.
+(pdftex.def)             Requested size: 455.24411pt x 173.56479pt.
+<figures/areas.png, id=139, 803.0pt x 442.65375pt>
+File: figures/areas.png Graphic file (type png)
+<use figures/areas.png>
+Package pdftex.def Info: figures/areas.png  used on input line 147.
+(pdftex.def)             Requested size: 455.24411pt x 250.95763pt.
+ [3 <./figures/snapshots.png>]
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 15
+8.
+
+(/usr/share/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 158.
+ [4 <./figures/areas.png>]
+Bab 2.
+
+Overfull \hbox (6.81963pt too wide) in paragraph at lines 180--182
+\T1/cmr/m/n/12 Perangkat lu-nak berikut ini wa-jib di-in-stall oleh ma-ha-siswa
+ demi lan-car-nya prak-tikum: 
  []
 
-<resources/pdf/logo.pdf, id=146, 2832.5825pt x 3212.0pt>
-File: resources/pdf/logo.pdf Graphic file (type pdf)
-<use resources/pdf/logo.pdf>
-Package pdftex.def Info: resources/pdf/logo.pdf  used on input line 186.
-(pdftex.def)             Requested size: 227.62206pt x 258.09251pt.
-[4] [5 <./resources/pdf/logo.pdf>] [6]
-Package hyperref Info: bookmark level for unknown note defaults to 0 on input l
-ine 254.
-Package hyperref Info: bookmark level for unknown thm defaults to 0 on input li
-ne 257.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 274.
-Package hyperref Info: bookmark level for unknown framedthm defaults to 0 on in
-put line 274.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 276.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 279.
-Package hyperref Info: bookmark level for unknown framedprf defaults to 0 on in
-put line 279.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 287.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 290.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 291.
- [7] [8]
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 3
-31.
+<figures/installer.png, id=156, 375.65344pt x 295.1025pt>
+File: figures/installer.png Graphic file (type png)
+<use figures/installer.png>
+Package pdftex.def Info: figures/installer.png  used on input line 202.
+(pdftex.def)             Requested size: 364.19667pt x 286.12299pt.
+[5
 
-(/usr/share/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
-File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 331.
+]
+<figures/git-bash.png, id=172, 437.38406pt x 278.54062pt>
+File: figures/git-bash.png Graphic file (type png)
+<use figures/git-bash.png>
+Package pdftex.def Info: figures/git-bash.png  used on input line 211.
+(pdftex.def)             Requested size: 364.19667pt x 231.93668pt.
+ [6 <./figures/installer.PNG> <./figures/git-bash.PNG>]
+<figures/github.com.png, id=180, 1894.07625pt x 1004.75375pt>
+File: figures/github.com.png Graphic file (type png)
+<use figures/github.com.png>
+Package pdftex.def Info: figures/github.com.png  used on input line 222.
+(pdftex.def)             Requested size: 455.24411pt x 241.48311pt.
+<figures/token1.png, id=181, 1901.1025pt x 1114.1625pt>
+File: figures/token1.png Graphic file (type png)
+<use figures/token1.png>
+Package pdftex.def Info: figures/token1.png  used on input line 234.
+(pdftex.def)             Requested size: 364.19667pt x 213.42715pt.
+<figures/token2.png, id=182, 1901.1025pt x 1114.1625pt>
+File: figures/token2.png Graphic file (type png)
+<use figures/token2.png>
+Package pdftex.def Info: figures/token2.png  used on input line 240.
+(pdftex.def)             Requested size: 364.19667pt x 213.42715pt.
+ [7 <./figures/github.com.png> <./figures/token1.png>]
+<figures/token3.png, id=193, 1927.2pt x 1204.5pt>
+File: figures/token3.png Graphic file (type png)
+<use figures/token3.png>
+Package pdftex.def Info: figures/token3.png  used on input line 246.
+(pdftex.def)             Requested size: 364.19667pt x 227.60759pt.
+<figures/token4.png, id=194, 1927.2pt x 1204.5pt>
+File: figures/token4.png Graphic file (type png)
+<use figures/token4.png>
+Package pdftex.def Info: figures/token4.png  used on input line 253.
+(pdftex.def)             Requested size: 364.19667pt x 227.60759pt.
+ [8 <./figures/token2.png> <./figures/token3.png>]
+<figures/token5.png, id=206, 990.70125pt x 377.41pt>
+File: figures/token5.png Graphic file (type png)
+<use figures/token5.png>
+Package pdftex.def Info: figures/token5.png  used on input line 259.
+(pdftex.def)             Requested size: 364.19667pt x 138.74113pt.
+ [9 <./figures/token4.png> <./figures/token5.png>]
+Bab 3.
+<figures/prak1-1.png, id=215, 565.11125pt x 158.5925pt>
+File: figures/prak1-1.png Graphic file (type png)
+<use figures/prak1-1.png>
+Package pdftex.def Info: figures/prak1-1.png  used on input line 278.
+(pdftex.def)             Requested size: 364.19667pt x 102.21028pt.
+<figures/prak1-0.png, id=216, 593.21625pt x 114.4275pt>
+File: figures/prak1-0.png Graphic file (type png)
+<use figures/prak1-0.png>
+Package pdftex.def Info: figures/prak1-0.png  used on input line 294.
+(pdftex.def)             Requested size: 364.19667pt x 70.25288pt.
 
+Overfull \hbox (8.41753pt too wide) in paragraph at lines 291--295
+[]\T1/cmr/m/n/12 Konfigurasi ini da-pat dil-i-hat di folder \T1/cmr/bx/n/12 %US
+ER-PRO-FILE%/.gitconfig \T1/cmr/m/n/12 (\T1/cmr/bx/n/12 Windows\T1/cmr/m/n/12 )
 
-LaTeX Warning: Empty bibliography on input line 341.
-
-[9]
-Appendix A.
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 3
-85.
-(/usr/share/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no b in font msbm10!
-Missing character: There is no c in font msbm10!
-LaTeX Font Info:    Trying to load font information for U+euf on input line 407
-.
-(/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+ []
 
 [10
 
-] [11] [12] (./main.aux)
+ <./figures/prak1-1.png>]
+<figures/prak1-2.png, id=226, 705.63625pt x 234.8775pt>
+File: figures/prak1-2.png Graphic file (type png)
+<use figures/prak1-2.png>
+Package pdftex.def Info: figures/prak1-2.png  used on input line 303.
+(pdftex.def)             Requested size: 364.19667pt x 121.22667pt.
+<figures/prak1-3.png, id=227, 1094.0875pt x 166.6225pt>
+File: figures/prak1-3.png Graphic file (type png)
+<use figures/prak1-3.png>
+Package pdftex.def Info: figures/prak1-3.png  used on input line 311.
+(pdftex.def)             Requested size: 364.19667pt x 55.46356pt.
+<figures/prak1-4.png, id=228, 1075.01625pt x 466.74374pt>
+File: figures/prak1-4.png Graphic file (type png)
+<use figures/prak1-4.png>
+Package pdftex.def Info: figures/prak1-4.png  used on input line 320.
+(pdftex.def)             Requested size: 364.19667pt x 158.12102pt.
+ [11 <./figures/prak1-0.png> <./figures/prak1-2.png> <./figures/prak1-3.png> <.
+/figures/prak1-4.png>]
+<figures/prak1-5.png, id=241, 555.07375pt x 97.36375pt>
+File: figures/prak1-5.png Graphic file (type png)
+<use figures/prak1-5.png>
+Package pdftex.def Info: figures/prak1-5.png  used on input line 329.
+(pdftex.def)             Requested size: 364.19667pt x 63.8829pt.
+
+Overfull \hbox (4.08969pt too wide) in paragraph at lines 335--335
+ []\T1/zi4/m/n/12 (Keterangan : Membuat commit atau label untuk unggahan yang a
+kan dilakukan)[] 
+ []
+
+<figures/prak1-6.png, id=242, 675.52374pt x 216.81pt>
+File: figures/prak1-6.png Graphic file (type png)
+<use figures/prak1-6.png>
+Package pdftex.def Info: figures/prak1-6.png  used on input line 338.
+(pdftex.def)             Requested size: 364.19667pt x 116.89038pt.
+<figures/prak1-7.png, id=244, 583.17876pt x 294.09875pt>
+File: figures/prak1-7.png Graphic file (type png)
+<use figures/prak1-7.png>
+Package pdftex.def Info: figures/prak1-7.png  used on input line 343.
+(pdftex.def)             Requested size: 364.19667pt x 183.66765pt.
+<figures/prak1-8.png, id=245, 1859.94875pt x 916.42375pt>
+File: figures/prak1-8.png Graphic file (type png)
+<use figures/prak1-8.png>
+Package pdftex.def Info: figures/prak1-8.png  used on input line 348.
+(pdftex.def)             Requested size: 364.19667pt x 179.43604pt.
+[12 <./figures/prak1-5.png> <./figures/prak1-6.png> <./figures/prak1-7.png>]
+<figures/prak1-9.png, id=257, 1576.89125pt x 218.8175pt>
+File: figures/prak1-9.png Graphic file (type png)
+<use figures/prak1-9.png>
+Package pdftex.def Info: figures/prak1-9.png  used on input line 354.
+(pdftex.def)             Requested size: 364.19667pt x 50.53731pt.
+<figures/prak1-10.png, id=258, 1111.15125pt x 88.33pt>
+File: figures/prak1-10.png Graphic file (type png)
+<use figures/prak1-10.png>
+Package pdftex.def Info: figures/prak1-10.png  used on input line 363.
+(pdftex.def)             Requested size: 364.19667pt x 28.95085pt.
+<figures/prak1-11.png, id=259, 874.26625pt x 333.245pt>
+File: figures/prak1-11.png Graphic file (type png)
+<use figures/prak1-11.png>
+Package pdftex.def Info: figures/prak1-11.png  used on input line 373.
+(pdftex.def)             Requested size: 364.19667pt x 138.82292pt.
+<figures/prak1-12.png, id=260, 1893.0725pt x 919.435pt>
+File: figures/prak1-12.png Graphic file (type png)
+<use figures/prak1-12.png>
+Package pdftex.def Info: figures/prak1-12.png  used on input line 378.
+(pdftex.def)             Requested size: 364.19667pt x 176.88306pt.
+
+[13 <./figures/prak1-8.png> <./figures/prak1-9.png> <./figures/prak1-10.png> <.
+/figures/prak1-11.png>]
+<figures/prak1-13.png, id=272, 1897.0875pt x 618.31pt>
+File: figures/prak1-13.png Graphic file (type png)
+<use figures/prak1-13.png>
+Package pdftex.def Info: figures/prak1-13.png  used on input line 383.
+(pdftex.def)             Requested size: 364.19667pt x 118.69719pt.
+ [14 <./figures/prak1-12.png> <./figures/prak1-13.png>]
+Bab 4.
+[15
+
+] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CC5A7A4D5F18CB6015849DA487C85C02;1174.
+(rerunfilecheck)             Checksum: A28EC4EAE13A0BFDAEDD54DB4A9DC29A;2127.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1811,49 +1834,33 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39185 strings out of 480954
- 714821 string characters out of 5908242
- 1476319 words of memory out of 5000000
- 55588 multiletter control sequences out of 15000+600000
- 439537 words of font info for 126 fonts, out of 8000000 for 9000
+ 37511 strings out of 480954
+ 692763 string characters out of 5905050
+ 1439304 words of memory out of 5000000
+ 53947 multiletter control sequences out of 15000+600000
+ 425449 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 125i,17n,193p,737b,2160s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 125i,12n,137p,786b,1742s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
-exmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/share/texmf-dist/fonts/e
-nc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/incon
-solata/i4-t1-0.enc}</usr/share/texmf-dist/fonts/type1/public/inconsolata/Incons
-olata-zi4b.pfb></usr/share/texmf-dist/fonts/type1/public/inconsolata/Inconsolat
-a-zi4r.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/esint-type1/esint10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/eu
-ler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
-0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></u
-sr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-
-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type
-1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-sup
-er/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
-></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/te
-xmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf-dist/fonts/
-type1/public/cm-super/sfcc1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm
--super/sfcc2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700
-.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm
-1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/
-share/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf-dis
-t/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/cm-super/sfti1440.pfb>
-Output written on main.pdf (14 pages, 4648728 bytes).
+exmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf-dist/font
+s/enc/dvips/inconsolata/i4-t1-0.enc}</usr/share/texmf-dist/fonts/type1/public/i
+nconsolata/Inconsolata-zi4r.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
+per/sfbi1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pf
+b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1728.pfb></usr/share/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts
+/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/c
+m-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx248
+8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf-dist/f
+onts/type1/public/cm-super/sfcc2074.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfr
+m1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr
+/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-di
+st/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on main.pdf (17 pages, 5743683 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 288 compressed objects within 3 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 

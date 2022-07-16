@@ -9,6 +9,7 @@
 \usepackage{packages/sleek-title}
 \usepackage{packages/sleek-theorems}
 \usepackage{packages/sleek-listings}
+\usepackage{hyperref}
 
 %%%%%%%%%%%%%%
 % Title-page %
@@ -18,26 +19,83 @@
 \institute{Universitas Semarang}
 \faculty{Fakultas Teknologi Informasi dan Komunikasi}
 \department{Teknik Informatika}
-\title{TIS18755P \\ Internet of Things}
+\title{TIS18430P\\Open Source Systems}
 \subtitle{Modul Praktikum Mahasiswa}
-\author{\textit{Author}\\Alauddin Maulana Hirzan, M. Kom\\0607069401}
+\author{\textit{Oleh:}\\Alauddin Maulana Hirzan, S. Kom., M. Kom\\0607069401}
 \date{}
 
 \lstdefinestyle{latex}{
     language=TeX,
     style=default,
-    %%%%%
     commentstyle=\ForestGreen,
     keywordstyle=\TrueBlue,
     stringstyle=\VeronicaPurple,
     emphstyle=\TrueBlue,
-    %%%%%
     emph={LaTeX, usepackage, textit, textbf, textsc}
 }
 
 \FrameTBStyle{latex}
 
+%%%%%%%%%%%%%%
+% Rename %
+%%%%%%%%%%%%%%
+
 \def\tbs{\textbackslash}
+\addto\captionsenglish{\renewcommand{\chaptername}{Bab}}
+\addto\captionsenglish{\renewcommand{\contentsname}{Daftar Isi}}
+\addto\captionsenglish{\renewcommand{\figurename}{Gambar}}
+\addto\captionsenglish{\renewcommand{\tablename}{Tabel}}
+\addto\captionsenglish{\renewcommand{\listfigurename}{Daftar Gambar}}
+\addto\captionsenglish{\renewcommand{\listtablename}{Daftar Tabel}}
+
+%%%%%%%%%%%%%%
+% Usable Commands %
+%%%%%%%%%%%%%%
+
+% Chapter
+% \chapter{}
+
+% Section
+% \section{}
+% \subsection{}
+
+% Footnotes
+% \blindfootnote
+
+% Listing
+% \begin{lstlisting}[style=latexFrameTB, caption={Example of Sleek Template packages usage.}, gobble=8]
+%	\usepackage[english]{babel}
+%	\usepackage[noheader]{packages/sleek}
+%	\usepackage{packages/sleek-title}
+% \end{lstlisting}
+
+% Numbering
+%\begin{enumerate}[noitemsep]
+%	\item \texttt{parindent} add indentation to the first line of paragraphs;
+%	\item \texttt{noheader} removes the document header;
+%	\item \texttt{french} changes the decimal sign to a comma and translates some captions.
+%\end{enumerate}
+
+% Figure
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.5\textwidth]{resources/pdf/logo.pdf}
+%	\noskipcaption{}
+%	\label{}
+%\end{figure}
+
+% Table
+%\begin{table}[H]
+%	\centering
+%	\begin{tabular}{|r|r|c|l|}
+%		\hline
+%		\multicolumn{3}{|l|}{a} & qrs  \\ \hline
+%		b &  ef &     jkl      & tuvx \\ \hline
+%		cd & ghi &     mnop     & wyz  \\ \hline
+%	\end{tabular}
+%	\caption{Example of multi-column cells.}
+%	\label{tab:multicol_example}
+%\end{table}
 
 %%%%%%%%%%%%
 % Document %
@@ -46,422 +104,291 @@
 \begin{document}
     \maketitle
     \romantableofcontents
-
-    \chapter{Introduction}
-
-    Sleek Template is a minimal collection of \LaTeX{} packages and settings that ease the writing of beautiful documents. While originally meant for theses, it is perfectly suitable for project reports, articles, syntheses, etc. -- with a few adjustments, like margins.
-
-    It is composed of four separate packages -- \texttt{sleek}, \texttt{sleek-title}, \texttt{sleek-theorems} and \texttt{sleek-listings} -- each of which can be used individually.
-
-    \begin{lstlisting}[style=latexFrameTB, caption={Example of Sleek Template packages usage.}, gobble=8]
-        \usepackage[english]{babel}
-        \usepackage[noheader]{packages/sleek}
-        \usepackage{packages/sleek-title}
-    \end{lstlisting}
-
-    \blindfootnote{If you are a \LaTeX{} beginner consider the excellent \href{https://www.overleaf.com/learn}{Overleaf tutorial}. Also, there are a lot of symbols available in \LaTeX{} and, therefore, in this template. I recommend the use of \enquote{The Comprehensive \LaTeX{} Symbol List} \cite{pakin2020comprehensive} for searching symbols.}
-
-    \chapter{Features}
-
-    \section{\texttt{sleek}}
-
-    \texttt{sleek} is the main package. It imports the packages (\emph{cf.} Table \ref{tab:sleek_relevant_packages}) and setups the settings that make Sleek Template easy to use.
-
-    There are three available options to the \texttt{sleek} package :
-
-    \begin{enumerate}[noitemsep]
-        \item \texttt{parindent} add indentation to the first line of paragraphs;
-        \item \texttt{noheader} removes the document header;
-        \item \texttt{french} changes the decimal sign to a comma and translates some captions.
-    \end{enumerate}
-
-    But nothing prevents you to tweak the settings to your liking in the source code.
-
-    \subsection{Mathematics}
-
-    This template uses \texttt{amsmath} and \texttt{amssymb}, which are the de-facto standard for typesetting mathematics. Additionally, \texttt{esint} provides alternative integral symbols (\emph{cf.} Table 78 in \cite{pakin2020comprehensive}) and \texttt{bm} is used for bold math symbols like vectors (see \eqref{eq:gauss_law}).
-
-    A few custom macros have also been added such as \texttt{\tbs{}rbk}, \texttt{\tbs{}sbk} and \texttt{\tbs{}cbk} for respectively round, square and curly brackets, \texttt{\tbs{}abs} for absulute value, \texttt{\tbs{}norm} for norm, \texttt{\tbs{}fact} for factorial and \texttt{\tbs{}diff} for up-right differential.
-    $$
-        \rbk{\frac{\pi}{2}}, \quad \sbk{\frac{\pi}{2}}, \quad \cbk{\frac{\pi}{2}}, \quad \abs{\frac{\pi}{2}}, \quad \norm{\frac{\pi}{2}}, \quad \fact{n} = \prod_{i = 1}^{n} i, \quad \frac{\diff \bm{x}}{\diff t} = \bm{v}
-    $$
-
-    Here are some examples showcasing what is possible with the default packages of \texttt{sleek}.
-
-    \begin{equation}\label{eq:gauss_law}
-        \oiint_S \bm{E} \cdot \diff \bm{s} = \iiint_V \frac{\rho}{\varepsilon_0} \diff V
-    \end{equation}
-
-    \begin{equation*}
-        e = \sum_{n=0}^\infty \frac{1}{n!}
-    \end{equation*}
-
-    \begin{subequations}
-        \begin{align}
-            \frac{\diff x}{\diff t} & = \alpha x - \beta xy \\
-            \frac{\diff y}{\diff t} & = \delta xy - \gamma y
-        \end{align}
-    \end{subequations}
-
-    \begin{align*}
-        \ln \abs{x} + C & = \int \frac{1}{x} \,\diff x \\
-        \exp(x) & = \lim_{n \to \infty} \rbk{1 + \frac{x}{n}}^n
-    \end{align*}
-
-    \begin{equation}
-        \left\{
-        \begin{aligned}
-            x & = r \sin \theta \cos \phi \\
-            y & = r \sin \theta \sin \phi \\
-            z & = r \cos \theta
-        \end{aligned}
-        \right.
-    \end{equation}
-
-    \begin{alignat*}{2}
-                              & & P(A, B)  & = P(A \mid B) P(B)                        \\
-        \Leftrightarrow \quad & & P(A \mid B) & = \frac{P(A, B)}{P(B)}                 \\
-                              & &          & = P(B \mid A) \frac{P(A)}{P(B)}
-    \end{alignat*}
-
-    \subsection{Units}
-
-    The \texttt{siunitx} package provides three commands to typeset numbers and quantities -- \texttt{\tbs{}num}, \texttt{\tbs{}si} and \texttt{\tbs{}SI} -- as well as various units (\emph{cf.} Table \ref{tab:siunitx_units}).
-
-    It is possible to write, both in text or math modes, numbers without units (\emph{e.g.} \num{1}, \num{1.0}, \num{-1}, \num{3.14159}, \num{e100}, $N_A = \num{6.022e23}$), units without quantity (\emph{e.g.} $\si{\joule} = \si{\newton\meter} = \si{\kilogram\meter\squared\per\second\squared}$) and, finally, quantities with their units (\emph{e.g.} \SI{9.81}{\meter\per\second\squared}, $c = \SI{299.6e6}{\meter\per\second}$).
-
-    \subsection{Lists}
-
-    Sleek Template uses \texttt{enumitem} to enhance the listing capabilities of \LaTeX{}. There are three lists environments :
-    \begin{enumerate}
-        \item \texttt{itemize} for unordered lists;
-        \item \texttt{enumerate} for ordered lists;
-        \item \texttt{description} for descriptive lists.
-    \end{enumerate}
-
-    In a list, each element is preceded by the command \texttt{\tbs{}item}. It is possible to modify the labels
-    \begin{itemize}
-        \item individually with \texttt{\tbs{}item[newLabel]};
-        \item for the whole environment with the \texttt{label=newLabel} option.
-    \end{itemize}
-
-    In the case of \texttt{enumerate}, \texttt{newLabel} can contain special expressions (\emph{cf.} Table \ref{tab:enumerate_special_expressions}) that will adapt to the item number. For example, \texttt{label=(\tbs{}alph*)} defines the label sequence \enquote{(a), (b), (c), ...}. Still in the case of \texttt{enumerate}, the  \texttt{\tbs{}setcounter} and \texttt{\tbs{}addtocounter} commands allow to modify the current item number.
-
-    One could want to reduce the space between items with the \texttt{noitemsep} option or to delete the left margin with the \texttt{leftmargin=*} option.
-
-    It is also possible to write nested lists. Here follows a very condensed example.
-
-    \begin{itemize}[leftmargin=*]
-        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-        Arcu ac tortor dignissim convallis aenean et tortor. In eu mi bibendum neque egestas congue quisque.
-
-        \item[$+$] Semper quis lectus nulla at volutpat diam ut. Felis eget velit aliquet sagittis id. Blandit aliquam etiam erat velit scelerisque in dictum non consectetur.
-        \begin{equation}
-            a^2 + b^2 = c^2
-        \end{equation}
-
-        \item Nibh sed pulvinar proin gravida hendrerit lectus. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Non consectetur a erat nam at lectus urna duis.
-        \begin{enumerate}[noitemsep, label=\roman*.]
-            \item Nibh tortor id aliquet lectus. Sit amet justo donec enim diam vulputate ut pharetra sit.
-            \setcounter{enumi}{3}
-            \item Condimentum id venenatis a condimentum vitae. Quis eleifend quam adipiscing vitae proin sagittis nisl.
-            \addtocounter{enumi}{15}
-            \item Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra.
-        \end{enumerate}
-
-        \item Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus.
-            \begin{description}
-                \item[Ridiculus] mus mauris vitae ultricies leo. Mollis aliquam ut porttitor leo a diam. Velit egestas dui id ornare arcu odio ut sem nulla.
-                \item[Nullam vehicula] ipsum a arcu. Nibh sit amet commodo nulla facilisi nullam. At erat pellentesque adipiscing commodo elit. Libero volutpat sed cras ornare arcu dui.
-            \end{description}
-    \end{itemize}
-
-    \subsection{Figures}
-
-    Thanks to the \texttt{graphicx} package, it is possible to include external graphic documents (images, plots, etc.) in your document with the \texttt{\tbs{}includegraphics} command. Most image type format (\texttt{jpg}, \texttt{png}, \texttt{bmp}, etc.) are supported by this command. However, it should be noted that it is highly preferable to use vectorial types, such as \texttt{pdf} or \texttt{eps}.
-
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{resources/pdf/logo.pdf}
-        \noskipcaption{Random University logo.}
-        \label{fig:random_university_logo}
-    \end{figure}
-
-    \subsection{Tables}
-
-    The packages \texttt{multicol} and \texttt{multirow} comes handy for complex table formatting such as multi-column or multi-row cells.
-
-    \begin{table}[H]
-        \centering
-        \begin{tabular}{|r|r|c|l|}
-            \hline
-            \multicolumn{3}{|l|}{a} & qrs  \\ \hline
-             b &  ef &     jkl      & tuvx \\ \hline
-            cd & ghi &     mnop     & wyz  \\ \hline
-        \end{tabular}
-        \caption{Example of multi-column cells.}
-        \label{tab:multicol_example}
-    \end{table}
-
-    \begin{table}[H]
-        \centering
-        \begin{tabular}{|l|c|r|}
-            \hline
-            \multirow{3}{2cm}{a} &   b   &    c \\ \cline{2-3}
-                                 &  de   &   fg \\ \cline{2-3}
-                                 &  hij  &  klm \\ \hline
-            nopq                 & rstuv & wxyz \\ \hline
-        \end{tabular}
-        \caption{Example of multi-row cells.}
-        \label{tab:multirow_example}
-    \end{table}
-
-    \newpage
-
-    \section{\texttt{sleek-title}}
-
-    Sleek Template offers a custom title-page with the package \texttt{sleek-title}. The formatting of the title-page is automatically inferred from the fields that the user has provided.
-
-    The fields are \texttt{\tbs{}logo}, \texttt{\tbs{}institute}, \texttt{\tbs{}faculty}, \texttt{\tbs{}department}, \texttt{\tbs{}title}, \texttt{\tbs{}subtitle}, \texttt{\tbs{}author}, \texttt{\tbs{}supervisor}, \texttt{\tbs{}context} and \texttt{\tbs{}date}.
-
-    Among these, only \texttt{\tbs{}title}, \texttt{\tbs{}author} and \texttt{\tbs{}date} have to be provided. However, none of the fields should stay empty. Prefer deleting or commenting the line if so.
-
-    \begin{lstlisting}[style=latexFrameTB, caption={Example of \texttt{sleek-title} title-page definition.}, gobble=8]
-        \logo{./resources/pdf/logo.pdf}
-        \institute{Random University}
-        \faculty{Faculty of Whatever Sciences}
-        %\department{Department of Anything but Psychology}
-        \title{A sleek \LaTeX{} template}
-        \subtitle{With a sleeker title-page}
-        \author{\textit{Author}\\Francois \textsc{Rozet}}
-        %\supervisor{Linus \textsc{Torvalds}}
-        %\context{Well, I was bored...}
-        \date{\today}
-    \end{lstlisting}
-
-    It is also possible to use Sleek Template without \texttt{sleek-title}, in which case the default \LaTeX{} title-page will be used.
-
-    \newpage
-
-    \section{\texttt{sleek-theorems}}
-
-    \texttt{sleek-theorems} is based on the \texttt{amsthm} and \texttt{thmtools} packages. It provides a handful of theorem-like environments, each of which have different style and purpose.
-
-    The environments are \texttt{thm} (theorem), \texttt{lem} (lemma), \texttt{prop} (proposition), \texttt{proof}, \texttt{defn} (definition), \texttt{hyp} (hypothesis), \texttt{meth} (method), \texttt{quest} (question), \texttt{answ} (answer), \texttt{expl} (example), \texttt{rmk} (remark), \texttt{note} and \texttt{tip}.
-
-    \begin{note}
-        The option \texttt{french} translates the name of each provided environment. It is also possible, and easy, to add your own language as an option in the source code.
-    \end{note}
-
-    \begin{thm}[Triangle inequality]
-        Let be a triangle in Euclidean space. Then the sum of the lengths of two of its sides always surpass or equals the length of the third.
-    \end{thm}
-
-    \begin{proof}
-        Let $a$, $b$ and $c$ be the lengths of the sides of a triangle in Euclidean space and $\alpha$, $\beta$, $\gamma$ their respective opposite angle. By the generalized Pythagoras' theorem, we have
-        \begin{alignat*}{2}
-                                  &  & c^2 & = a^2 + b^2 - 2ab \cos\gamma \\
-                                  &  &     & \leq a^2 + b^2 + 2ab         \\
-                                  &  &     & \leq (a + b)^2               \\
-            \Leftrightarrow \quad &  & c   & \leq a + b
-        \end{alignat*}
-        Therefore in any triangle, the sum of the lengths of two sides always surpass or equals the length of the third.
-    \end{proof}
-
-    In addition, these environments also have framed versions -- \texttt{framedthm}, \texttt{framedlem}, etc. -- for readability.
-
-    \begin{framedthm}[Triangle inequality]\label{thm:Triangle inequality}
-        Let be a triangle in Euclidean space. Then the sum of the lengths of two of its sides always surpass or equals the length of the third.
-    \end{framedthm}
-
-    \begin{framedprf}
-        Let $a$, $b$ and $c$ be the lengths of the sides of a triangle in Euclidean space and $\alpha$, $\beta$, $\gamma$ their respective opposite angle. By the generalized Pythagoras' theorem, we have
-        \begin{alignat*}{2}
-                                  &  & c^2 & = a^2 + b^2 - 2ab \cos\gamma \\
-                                  &  &     & \leq a^2 + b^2 + 2ab         \\
-                                  &  &     & \leq (a + b)^2               \\
-            \Leftrightarrow \quad &  & c   & \leq a + b
-        \end{alignat*}
-        Therefore in any triangle, the sum of the lengths of two sides always surpass or equals the length of the third. \qedadd
-    \end{framedprf}
-
-    \begin{framedquest*}
-        Based on the theorem \ref{thm:Triangle inequality}, what is the shortest path from a point $A$ to a point $B$ in Euclidean geometry ?
-    \end{framedquest*}
-
-    \newpage
-
-    \section{\texttt{sleek-listings}}
-
-    The \texttt{sleek-listings} package is a small collection of styles for the environments of the \texttt{listings} package, which is useful to showcase nicely samples of code.
-
-    Currently, the basic styles \texttt{default} and \texttt{monokai} are implemented. The former is a neutral style (no line numbering, no frame, only good old black code) while the latter is an all-framed style reproducing the iconic \href{https://monokai.nl/}{Monokai} color-map.
-
-    In addition, the language styles \texttt{c}, \texttt{cpp}, \texttt{matlab}, \texttt{python} and \texttt{java} are implemented, with basic color-maps.
-
-    Finally, some commands to build upon existing styles are provided :
-
-    \begin{itemize}
-        \item \texttt{\tbs{}NumberStyle\{stylename\}} creates a style \texttt{stylenameNumber} with line numbering;
-        \item \texttt{\tbs{}FrameStyle\{stylename\}} creates a style \texttt{stylenameFrame} with an all around frame;
-        \item \texttt{\tbs{}FrameTBStyle\{stylename\}} creates a style \texttt{stylenameFrameTB} with top and bottom line rules;
-        \item \texttt{\tbs{}FrameNumberStyle\{stylename\}} and \texttt{\tbs{}FrameTBNumberStyle\{stylename\}} have the same logic.
-    \end{itemize}
-
-    For example, the \texttt{\tbs{}FrameTBStyle\{python\}} command creates the \texttt{pythonFrameTB} style, which can then be used to showcase \texttt{Python} code.
-
-    \FrameTBStyle{python}
-    \begin{lstlisting}[style=pythonFrameTB, gobble=4]
-    import numpy as np # Unnecessary import
-
-    a, b = 69., .420
-
-    def f(a: float, b: float) -> float:
-        r"""
-        Sum two numbers
-
-        Parameters
-        ----------
-        a: first number
-        b: second number
-
-        Returns
-        -------
-        the sum of 'a' and 'b'
-        """
-
-        return a + b
-
-    c = f(a, b)
-
-    print('{:f} + {:f} equals {:f}'.format(a, b, c))
-    \end{lstlisting}
-
-    \printbibliography
-
-    \appendix
-
-    \chapter{Tables}
-
-    \begin{table}[h]
-        \centering
-        \begin{tabular}{ll}
-            \toprule
-            \textbf{Package} & \textbf{Purpose} \\
-            \midrule
-            \texttt{amsmath} & Mathematical typesetting \\
-            \texttt{amsthm} & Mathematical environments for theorems, proofs, etc. \\
-            \texttt{booktabs} & Weighted rules for tables \\
-            \texttt{biblatex} & Bibliography \\
-            \texttt{csquotes} & Inline and display quotations \\
-            \texttt{enumitem} & Lists and enumerations \\
-            \texttt{float} & Floating objects such as figures and tables \\
-            \texttt{graphicx} & Graphics \\
-            \texttt{hyperref} & Hyperlinks and bookmarks \\
-            \texttt{listings} & Code listings \\
-            \texttt{multicol} & Table cells that span multiple columns \\
-            \texttt{multirow} & Table cells that span multiple rows \\
-            \texttt{siunitx} & Typesetting of units  \\
-            \texttt{subcaption} & Sub-figures and sub-captions \\
-            \bottomrule
-        \end{tabular}
-        \caption{List of the most relevant packages imported by Sleek Template.}
-        \label{tab:sleek_relevant_packages}
-    \end{table}
-
-    \begin{table}[h]
-        \centering
-        \begin{tabular}{>{\ttfamily\tbs{}}ll}
-            \toprule
-            emph\{abcABC123\} & \emph{abcABC123} \\
-            bfseries\{abcABC123\} & \bfseries{abcABC123} \\
-            itshape\{abcABC123\} & \itshape{abcABC123} \\
-            lowercase\{abcABC123\} & \lowercase{abcABC123} \\
-            normalfont\{abcABC123\} & \normalfont{abcABC123} \\
-            textbf\{abcABC123\} & \textbf{abcABC123} \\
-            textit\{abcABC123\} & \textit{abcABC123} \\
-            textsc\{abcABC123\} & \textsc{abcABC123} \\
-            textsf\{abcABC123\} & \textsf{abcABC123} \\
-            textsl\{abcABC123\} & \textsl{abcABC123} \\
-            textsubscript\{abcABC123\} & \textsubscript{abcABC123} \\
-            textsuperscript\{abcABC123\} & \textsuperscript{abcABC123} \\
-            texttt\{abcABC123\} & \texttt{abcABC123} \\
-            underline\{abcABC123\} & \underline{abcABC123} \\
-            uppercase\{abcABC123\} & \uppercase{abcABC123} \\
-            \bottomrule
-        \end{tabular}
-        \caption{Available text fonts in \LaTeX{}.}
-        \label{tab:text_fonts}
-    \end{table}
-
-    \begin{table}[h]
-        \centering
-        \begin{tabular}{>{\ttfamily\$\tbs{}}l<{\$}l}
-            \toprule
-            mathcal\{abcABC123\} & $\mathcal{abcABC123}$ \\
-            mathit\{abcABC123\} & $\mathit{abcABC123}$ \\
-            mathnormal\{abcABC123\} & $\mathnormal{abcABC123}$ \\
-            mathrm\{abcABC123\} & $\mathrm{abcABC123}$ \\
-            mathbb\{abcABC123\} & $\mathbb{abcABC123}$ \\
-            mathfrak\{abcABC123\} & $\mathfrak{abcABC123}$ \\
-            \bottomrule
-        \end{tabular}
-        \caption{Available math fonts in \LaTeX{} and AMS.}
-        \label{tab:math_fonts}
-    \end{table}
-
-    \begin{table}[h]
-        \centering
-        \begin{tabular}{>{\ttfamily}lr|>{\ttfamily}lr|>{\ttfamily}lr}
-            \toprule
-            metre & \si{\metre} & second & \si{\second} & mole & \si{\mole} \\
-            meter & \si{\meter} & ampere & \si{\ampere} & candela & \si{\candela} \\
-            kilogram & \si{\kilogram} & kelvin & \si{\kelvin} &  &  \\
-            \midrule
-            hertz & \si{\hertz} & farad & \si{\farad} & lumen & \si{\lumen} \\
-            newton & \si{\newton} & ohm & \si{\ohm} & lux & \si{\lux} \\
-            pascal & \si{\pascal} & siemens & \si{\siemens} & becquerel & \si{\becquerel} \\
-            joule & \si{\joule} & weber & \si{\weber} & gray & \si{\gray} \\
-            watt & \si{\watt} & tesla & \si{\tesla} & sievert & \si{\sievert} \\
-            coulomb & \si{\coulomb} & henry & \si{\henry} &  &  \\
-            volt & \si{\volt} & celsius & \si{\celsius} &  &  \\
-            \midrule
-            angstrom & \si{\angstrom} & day & \si{\day} & liter & \si{\liter} \\
-            arcminute & \si{\arcminute} & degree & \si{\degree} & litre & \si{\litre} \\
-            arcsecond & \si{\arcsecond} & electronvolt & \si{\electronvolt} & minute & \si{\minute} \\
-            barn & \si{\barn} & gram & \si{\gram} & neper & \si{\neper} \\
-            bar & \si{\bar} & hectare & \si{\hectare} & tonne & \si{\tonne} \\
-            bel & \si{\bel} & hour & \si{\hour} &  &  \\
-            \midrule
-            yocto & \si{\yocto} & milli & \si{\milli} & mega & \si{\mega} \\
-            zepto & \si{\zepto} & centi & \si{\centi} & giga & \si{\giga} \\
-            atto & \si{\atto} & deci & \si{\deci} & tera & \si{\tera} \\
-            femto & \si{\femto} & deca & \si{\deca} & peta & \si{\peta} \\
-            pico & \si{\pico} & deka & \si{\deka} & exa & \si{\exa} \\
-            nano & \si{\nano} & hecto & \si{\hecto} & zetta & \si{\zetta} \\
-            micro & \si{\micro} & kilo & \si{\kilo} & yotta & \si{\yotta} \\
-            \bottomrule
-        \end{tabular}
-        \caption{Available units in the \texttt{siunitx} package.}
-        \label{tab:siunitx_units}
-    \end{table}
-
-    \begin{table}[h]
-        \centering
-        \begin{tabular}{ll}
-            \toprule
-            \textbf{Expression} & \textbf{Description} \\
-            \midrule
-            \texttt{\tbs{}arabic*} & Arabic numbers (1, 2, 3, ...) \\
-            \texttt{\tbs{}alph*} & Lowercase letters (a, b, c, ...) \\
-            \texttt{\tbs{}Alph*} & Uppercase letters (A, B, C, ...) \\
-            \texttt{\tbs{}roman*} & Lowercase Roman numerals (i, ii, iii, ...) \\
-            \texttt{\tbs{}Roman*} & Lowercase Roman numerals (I, II, III, ...) \\
-            \bottomrule
-        \end{tabular}
-        \caption{Special expressions for the label of \texttt{enumerate} environments.}
-        \label{tab:enumerate_special_expressions}
-    \end{table}
-
+    \listoffigures
+
+	%%%%%%%%%%%%%%
+	% Bab 1 %
+	%%%%%%%%%%%%%%
+
+    \chapter{Pendahuluan}
+	\section {Mengenal \textit{Version Control System} dan GIT}
+    \textbf{\textit{Version Control}} di dalam bidang \textit{Software Engineering} merupakan sebuah teknik yang dilakukan untuk mengendalikan versi yang akan dirilis dalam pengembangan aplikasi. Sehingga dengan adanya teknik ini, semua perubahan yang terjadi di dalam aplikasi tersebut dapat tercatat dan termonitor dengan baik. Terdapat beberapa \textit{software} yang dapat digunakan seperti GIT dan SVN. Keduanya memiliki tugas yang sama namun cara mencapai tugas itu berbeda. Dalam praktikum kali ini, mata kuliah ini menganjurkan untuk menggunakan GIT sebagai alat pengendalian versi.
+  	
+  	Apa itu GIT? GIT adalah aplikasi pengendali versi yang menyimpan dan menganalisis informasi dengan cara yang berbeda dengan yang lainnya. GIT menerapkan konsep \textit{content-aware} sehingga dia tidak akan menambahkan, mengubah, mengunggah file yang kosong atau tidak mengalami perubahan. Ciri khas ini dimiliki oleh GIT namun tidak dimiliki oleh aplikasi lain. Aplikasi lain seperti CSV, Subversion, Perforce, Bazaar menggunakan pendakatan \textit{time-based changes} atau melihat perubahan file dari waktu ke waktu. Atau bisa dikenal sebagai \textit{delta-based version control}. Berikut ini adalah perbandingan antara \textit{Delta-based} dengan \textit{Snapshot-based} GIT:
+  	
+  	\begin{figure}[H]
+  		\centering
+  		\includegraphics[width=1.0\textwidth]{figures/delta.png}
+  		\noskipcaption{\textit{Delta-based Control}}
+  		\label{fig.delta}
+  	\end{figure}
+  
+  Model yang ditunjukkan oleh Gambar \ref{fig.delta} adalah cara yang digunakan oleh aplikasi lainnya. Dengan membandingkan perbedaan antara satu file dengan yang lainnya (\textit{diff} atau \textit{delta}), VCS akan mengubah file tersebut. Jika di file A terdapat perubahan kedua, maka perubahan tersebut akan diunggah. Jika tidak, maka file akan dibiarkan.
+  
+  \begin{figure}[H]
+  	\centering
+  	\includegraphics[width=1.0\textwidth]{figures/snapshots.png}
+  	\noskipcaption{\textit{Snapshot-based Control}}
+  	\label{fig.snapshot}
+  \end{figure}
+
+	Sedangkan GIT yang menggunakan metode \textbf{\textit{snapshot}}, menggunakan cara yang berbeda dalam mengendalikan versi dari masing-masing file. Dengan menggunakan GIT setiap perintah \textbf{\textit{commit}} yang diberikan, GIT akan merekam status file yang ada di folder tersebut dan menungunggahnya. Sehingga disetiap sesi \textbf{\textit{commit}} versi, file-file yang dibutuhkan tetap ada. Sehingga muncul fitur seperti \textbf{\textit{branching}} yang memungkinkan perubahan tanpa menyentuh file utama.
+	
+	\section{Keamanan dan Integritas GIT}
+	
+	GIT memiliki perlindungan serta integritas yang sangat tinggi. Pengguna dapat mengunggah file mereka melalui jalur yang aman melalui \textbf{\textit{Secure Shell / SSH}}. Selain itu, GIT juga melakukan monitoring kualitas atau perubahan file berdasarkan \textbf{\textit{checksum hash}} menggunakan SHA-1. Ditambah, untuk memastikan orang-orang yang mengunggah adalah orang asli bukan penuri, GIT juga mampu menggunakan kunci kriptografi sebagai identifikasi \textbf{\textit{commiter}}.
+	
+	\section{Cara Kerja GIT}
+  	
+  	GIT memiliki cara kerja yang sangat sederhana, hanya menggunakan \textbf{Tiga Tahapan} saja. Berikut adalah ilustrasi cara kerja GIT:
+  	
+  	\begin{figure}[H]
+  		\centering
+  		\includegraphics[width=1.0\textwidth]{figures/areas.png}
+  		\noskipcaption{Tiga Tahapan GIT}
+  		\label{fig.tahapan}
+  	\end{figure}
+  
+  Menurut Gambar \ref{fig.tahapan}, GIT dimulai dengan melakukan \textbf{\textit{checkout}} pada projek yang ada di dalam folder. Hal ini bisa dicapat dengan melakukan perintah \textbf{\textit{git init}} untuk memulai GIT, atau dengan mengambil projek yang sudah ada melalui perintah \textbf{\textit{git clone}}. Folder \textbf{.git} ini berisi informasi-informasi penting berkaitan dengan projek tersebut. Meski aman untuk dihapus, namun rekam jejak file termasuk link upload akan hilang.
+  
+  Setelah melakukan inisialisasi atau klon, pengguna dapat melakukan perubahan file tersebut. Segala bentuk perubahan inilah yang nantinya akan masuk ke dalam \textbf{\textit{Staging Area}} melalui perintah \textbf{\textit{git add -A}}. Semua file yang masuk di tahap ini kemudian diberi label menggunakan perintah \textbf{\textit{git commit}} sehingga memudahkan pengguna dalam membaca versi yang diunggah. \textbf{\textit{Commit}} ini disimpan dalam folder \textbf{.git}. File-file siap diunggah ke \textbf{\textit{Repository}}
+  
+  \section{Respository Penyimpanan}
+  	
+  \textbf{\textit{Repository}} merupakan tempat penyimpanan kode-kode atau gambar atau file lain (dengan batas ukuran tertentu) secara daring sehingga bisa diakses oleh orang lain. Hampir mirip dengan \textit{Cloud Storage} pada biasanya, tetapi hanya bisa diakses oleh pemilik atau \textbf{\textit{contributor}} yang sudah dipercaya (dan diberi akses). Di dunia internet ada beberapa repositori yang bisa dipakai seperti \url{https://github.com} atau \url{https://gitlab.com}. Keduanya memiliki tugas yang sama sebagai repositori, namun memiliki kebijakan yang berbeda dalam hal prinsip \textit{open source}. Dalam hal fitur, \textit{GitHub} lebih banyak kebebasan dibandingkan \textit{GitLab}.
+  
+  %%%%%%%%%%%%%%
+  % Bab 2 %
+  %%%%%%%%%%%%%%
+  
+  \chapter{Persiapan Praktikum}
+  
+  Agar praktikum dapat berjalan dengan lancar, mahasiswa diwajibkan memenuhi persyaratan berikut baik dalam bentuk perangkat keras maupun lunak:
+  
+  \section{Perangkat Keras}
+  
+  GIT SCM tidak memerlukan spesifikasi yang tinggi untuk dioperasikan sehingga dapat digunakan diperangkat sekelas \textit{Raspberry Pi} dengan spesifikasi paling rendah. Namun wajib memiliki
+  
+  \begin{itemize}
+  	\item Layar Monitor
+  	\item Mouse
+  	\item Keyboard
+  \end{itemize}
+
+\section{Perangkat Lunak}
+
+Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya praktikum:
+\begin{itemize}
+	\item Pengguna Windows
+	\begin{enumerate}
+		\item Git-SCM via \url{https://git-scm.com/} (Gratis)
+		\item GPG4Win via \url{https://gpg4win.org/download.html} (Gratis, pilih \$0 ketika mengunduh)
+		\item Notepad (sudah termasuk)
+	\end{enumerate}
+	\item Pengguna Linux
+	\begin{enumerate}
+		\item git
+		\item gpg
+		\item nano atau vim atau editor lain
+	\end{enumerate}
+\end{itemize}
+
+\section{Instalasi}
+
+	Dalam melakukan instalasi GIT, ada satu langkah yang harus diperhatikan. Langkah ini akan menentukan editor apa yang akan dipakai git di Windows.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/installer.png}
+		\noskipcaption{Tahap Pemilihan Editor}
+		\label{fig.installer}
+	\end{figure}
+
+	Pastikan ketika memasang GIT-SCM untuk memilih \textbf{\textit{Notepad}} sebagai editor default Windows. Bagian akhir ketika praktikum, mahasiswa sebaiknya menggunakan \textbf{\textit{Git Bash}} dan bukan menggunakan CMD maupun Powershell seperti Gambar \ref{fig.gitbash}. 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/git-bash.png}
+		\noskipcaption{Git Bash}
+		\label{fig.gitbash}
+	\end{figure}
+
+	\section{Akun GitHub}
+	\subsection{Daftar Akun}
+	Tahapan ini sangat penting karena git tidak bisa beroperasi tanpa akun di \textit{GitHub}. Buka website \url{https://github.com/signup}. Isi semua form yang diperlukan, dan pastikan untuk \textbf{konfirmasi e-mail} agar akun GitHub dapat digunakan.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]{figures/github.com.png}
+		\noskipcaption{Git Bash}
+		\label{fig.githubcom}
+	\end{figure}
+
+	\subsection{\textit{Personal Token Access}}
+	Tahapn ini sangat penting karena demi keamanan pemilik GitHub untuk menggunakan \textit{Token} ketika mengunggah kodenya. Cukup dengan cara mudah:
+	
+	\begin{enumerate}
+		\item Klik \textbf{Foto Profil} di \textbf{Pojok Kanan Atas}, Pilih \textbf{Settings}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/token1.png}
+			\label{fig.token1}
+		\end{figure}
+		\item Klik \textbf{Developer Settings} di bagian bawah kiri
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/token2.png}
+			\label{fig.token2}
+		\end{figure}
+		\item Pilih \textbf{Personal access token}, lalu klik \textbf{Generate new token}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/token3.png}
+			\label{fig.token3}
+		\end{figure}
+		\item \textbf{GitHub} akan meminta \textbf{Password}. Masukkan \textbf{Password} akun.
+		\item \textbf{Beri} nama token. Ubah \textbf{Expiration} ke \textbf{No expiration} dan centang \textbf{semua scope}. Jika sudah klik \textbf{Generate token} yang ada di bawah halaman.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/token4.png}
+			\label{fig.token4}
+		\end{figure}
+		\item GitHub akan membuat kode unik yang harus disimpan dan tidak boleh dimasukkan ke folder git. Simpan baik baik. 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/token5.png}
+			\label{fig.token5}
+		\end{figure}
+		\item Kopi kode tersebut karena tidak akan muncul lagi.
+	\end{enumerate}
+
+  %%%%%%%%%%%%%%
+  % Bab 3 %
+  %%%%%%%%%%%%%%
+
+\chapter{Praktikum 1}
+
+	Di bagian ini mahasiswa diajarkan bagaimana melakukan pembuatan projek git, menambahkan file ke git, melakukan pelabelan, dan mengunggah ke repositori. Mahasiswa diwajibkan untuk menyelesaikan \textbf{Persiapan Praktikum} sebelum masuk ke tahapan ini.
+	
+	\section{Membuat Folder GIT}
+	\begin{enumerate}
+		\item Buka \textbf{Git Bash} jika menggunakan \textbf{Windows} atau \textbf{Terminal} jika menggunakan \textbf{Linux}. Keduanya sama-sama memiliki antarmuka dan perintah yang sama.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/prak1-1.png}
+		\end{figure}
+		\item Sebelum masuk ke pembuatan projek, sebaiknya aplikasi \textbf{git} dikonfigurasikan terlebih dahulu dengan perintah berikut:
+		\begin{verbatim}
+			git config --global user.name "Your Name"
+			git config --global user.email "youremail@yourdomain.com"
+			(Keterangan : Mengeset Nama dan E-Mail dalam config)
+		\end{verbatim}
+		\item Kemudian cek dengan perintah:
+		\begin{verbatim}
+			git config --list
+			(Keterangan : Melihat daftar konfigurasi)
+		\end{verbatim}
+		\item Konfigurasi ini dapat dilihat di folder \textbf{\%USERPROFILE\%/.gitconfig} (\textbf{Windows}) atau di \textbf{\$HOME/.gitconfig} (\textbf{Linux})
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/prak1-0.png}
+		\end{figure}
+		\item Buatlah sebuah folder dan masuk ke dalam folder tersebut dengan menggunakan perintah berikut:
+		\begin{verbatim}
+			mkdir PraktikumOSS
+			cd PraktikumOSS
+		\end{verbatim}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/prak1-2.png}
+		\end{figure}
+	\item Buatlah \textbf{Sebuah File} dengan menggunakan \textbf{Notepad} atau \textbf{Editor Lain} dengan isi sebagai berikut, dan simpan sebagai \textbf{Praktikum1.txt} di dalam folder \textbf{PraktikumOSS}.
+	\begin{verbatim}
+		<Nama> : <NIM> : <Asal>
+	\end{verbatim}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-3.png}
+	\end{figure}
+	\item Setelah file tersimpan dengan baik, waktunya membuat projek di dalam folder tersebut. Gunakan perintah berikut untuk mengubah folder tersebut menjadi folder GIT:
+	\begin{verbatim}
+		git init
+		(Keterangan : Mengubah Folder biasa menjadi Folder GIT)
+	\end{verbatim}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-4.png}
+	\end{figure}
+	\item Folder ini sudah menjadi folder GIT, namun belum bisa mengunggah ke repositori. Untuk dapat mengunggah, gunakan perintah berikut:
+	\begin{verbatim}
+		git add -Av 
+		(Keterangan : Tambahkan semua file dan tampilkan log)
+	\end{verbatim}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-5.png}
+	\end{figure}
+	\item Berikutnya adalah memberikan label atas file-file yang ingin diunggah. Kita sebut ini sebagai \textbf{\textit{COMMIT}}. Gunakan perintah berikut untuk melabeli unggahan (bukan FILE):
+	\begin{verbatim}
+		git commit -m "Versi 0.0.1 - File Baru"
+		(Keterangan : Membuat commit atau label untuk unggahan yang akan dilakukan)
+	\end{verbatim}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-6.png}
+	\end{figure}
+	\item Namun untuk mengunggah folder ini, kita memutuhkan yang namanya \textbf{\textit{Repository}} (bukan akun) yang ada di dalam GitHub. Buka \url{github.com} dan buatlah Repositori baru dengan meng-klik \textbf{New}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-7.png}
+	\end{figure}
+	\item Beri nama Repositori dengan \textbf{PraktikumOSS-[4 DIGIT NIM Terakhir]}. Untuk membedakan mahasiswa satu dengan yang lainnya.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-8.png}
+	\end{figure}
+	\item Kemudian klik \textbf{Create Repository} yang ada di bagian bawah.
+	\item Berikutnya kita akan diarahkan ke halaman repositori tersebut. Lalu \textbf{Kopi} alamat yang ada di sana.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-9.png}
+	\end{figure}
+	Kembali ke \textbf{Git Bash} atau terminal dan masukkan perintah berikut:
+	\begin{verbatim}
+		git remote add origin [alamat dari langkah sebelumnya]
+		(Keterangan : Mengeset [alamat] sebagai tujuan unggahan)
+	\end{verbatim}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-10.png}
+	\end{figure}
+	\item Kini GIT siap melakukan pengunggahan. Karena masih pertama kali gunakan perintah berikut:
+	\begin{verbatim}
+		git push --set-upstream origin master -f 
+		(Keterangan : Perintah ini akan mengeset origin sebagai tujuan dan 
+		-f akan memaksa unggahan)
+	\end{verbatim}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-11.png}
+	\end{figure}
+	\item Folder sudah terunggah, buka repositori tadi untuk melihat hasilnya.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-12.png}
+	\end{figure}
+	\item Dan jika dibuka berisi
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-13.png}
+	\end{figure}
+	\item Praktikum 1 Selesai
+	\end{enumerate}
+
+  %%%%%%%%%%%%%%
+  % Bab 4 %
+  %%%%%%%%%%%%%%
+
+\chapter{Praktikum 2}
+  
 \end{document}
