@@ -268,9 +268,10 @@ Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya prakti
 
 \chapter{Praktikum 1}
 
+	\section{Membuat Folder GIT}
 	Di bagian ini mahasiswa diajarkan bagaimana melakukan pembuatan projek git, menambahkan file ke git, melakukan pelabelan, dan mengunggah ke repositori. Mahasiswa diwajibkan untuk menyelesaikan \textbf{Persiapan Praktikum} sebelum masuk ke tahapan ini.
 	
-	\section{Membuat Folder GIT}
+	\section{Tutorial}
 	\begin{enumerate}
 		\item Buka \textbf{Git Bash} jika menggunakan \textbf{Windows} atau \textbf{Terminal} jika menggunakan \textbf{Linux}. Keduanya sama-sama memiliki antarmuka dan perintah yang sama.
 		\begin{figure}[H]
@@ -362,7 +363,16 @@ Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya prakti
 		\centering
 		\includegraphics[width=0.8\textwidth]{figures/prak1-10.png}
 	\end{figure}
-	\item Kini GIT siap melakukan pengunggahan. Karena masih pertama kali gunakan perintah berikut:
+	\item Sebelum melakukan penggunggahan, sebaiknya mengkonfigurasikan GIT agar menyimpan \textit{credentials} sehingga tidak perlu lagi memasukkan token ketika login. Masukkan perintah berikut:
+	\begin{verbatim}
+		git config --global credential.helper store
+		(Keterangan : Menyimpan username dan token ketika mengunggah)
+	\end{verbatim}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/prak1-14.png}
+	\end{figure}
+	\item Kini GIT siap melakukan pengunggahan. Karena masih pertama kali gunakan perintah berikut: (Catatan: \textbf{PASSWORD diisi dengan TOKEN, dan INPUT TIDAK AKAN TERLIHAT})
 	\begin{verbatim}
 		git push --set-upstream origin master -f 
 		(Keterangan : Perintah ini akan mengeset origin sebagai tujuan dan 
@@ -370,7 +380,7 @@ Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya prakti
 	\end{verbatim}
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.8\textwidth]{figures/prak1-11.png}
+		\includegraphics[width=0.8\textwidth]{figures/prak1-15.png}
 	\end{figure}
 	\item Folder sudah terunggah, buka repositori tadi untuk melihat hasilnya.
 	\begin{figure}[H]
@@ -390,5 +400,89 @@ Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya prakti
   %%%%%%%%%%%%%%
 
 \chapter{Praktikum 2}
-  
+	\section{Kloning dan Update Repositori}
+	Di bagian ini mahasiswa diajarkan bagaimana melakukan kloning repositori yang sudah dibuat sebelumnya, kemudian melakukan perubahan yang ada di dalam file, dan mengunggahnya kembali ke repositori. Mahasiswa diwajibkan untuk menyelesaikan \textbf{Praktikum 1} sebelum masuk ke tahapan ini.
+	
+	\section{Tutorial}
+	\begin{enumerate}
+		\item Buka \textbf{Git Bash} atau \textbf{Terminal}
+		\item Hapus folder \textbf{PraktikumOSS-[NIM]]}
+		\begin{itemize}
+			\item Hapus folder \textbf{PraktikumOSS} menggunakan \textbf{File Explorer} jika menggunakan Windows
+			\item Jika penghapusan dilakukan secara manual melalui perintah seperti berikut:
+			\begin{verbatim}
+				cd .. (Keterangan : Naik Satu Folder)
+				rm -rf PraktikumOSS (Jika Linux) / rmdir PraktikumOSS (Jika Windows)
+			\end{verbatim}
+		\end{itemize}
+		\item Di tempat saat ini (\textbf{Bukan PraktikumOSS-[NIM]}), masukkan perintah berikut untuk melakukan kloning repositori:
+		\begin{verbatim}
+			git clone [url repository]
+			(Keterangan : Melakukan kloning dari url repository ke dalam folder)
+		\end{verbatim}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/prak2-1.png}
+		\end{figure}
+		\item Kemudian masuk ke folder yang sudah di klon dengan perintah berikut:
+		\begin{verbatim}
+			cd PraktikumOSS-[4 Digit NIM]
+		\end{verbatim}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/prak2-2.png}
+		\end{figure}
+		\item Buka file \textbf{Praktikum1.txt} dengan menggunakan Notepad maupun Editor Lainnya. Dan masukkan data sebagai berikut tepat di bawah data yang sudah ada
+		\begin{verbatim}
+			Mata Kuliah : Open Source System
+			Catatan : Praktikum dengan menggunakan GIT
+		\end{verbatim}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/prak2-3.png}
+		\end{figure}
+		\item Data perubahan ini akan terdeteksi oleh GIT. Gunakan perintah:
+		\begin{verbatim}
+			git add -Av
+		\end{verbatim}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/prak2-4.png}
+		\end{figure}
+		\item setelah itu lakukan \textit{Commit} dengan perintah berikut:
+		\begin{verbatim}
+			git commit -m "Versi 0.0.2 - File Update"
+		\end{verbatim}
+		\item Lalu unggah dengan perintah 
+		\begin{verbatim}
+			git push
+		\end{verbatim}
+		\item Cek file yang telah dirubah yang ada di dalam repositori
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{figures/prak2-5.png}
+		\end{figure}
+	\end{enumerate}
+
+  	\section{Tugas Mandiri}
+  		Mahasiswa diwajibkan mengerjakan sesi mandiri ini setelah mengerjakan bagian \textbf{Tutorial}
+  		\begin{enumerate}
+  			\item Buatlah satu file dengan nama \textbf{README.md} di folder \textbf{PraktikumOSS-[NIM]}
+  			\item Dengan menggunakan \textbf{Notepad} atau \textbf{Editor Lain}, masukkan data berikut:
+  				\begin{verbatim}
+  					# Praktikum Open Source System
+  					#### Ditulis oleh : <NIM> <Nama>
+  					#### Semester : <Semester>
+  					#### Tanggal Praktikum : <Tanggal>
+  					
+  					Repositori ini merupakan hasil praktikum *Open Source System* yang nantinya 
+  					dapat digunakan untuk menyimpan semua koding-koding yang dibuat.
+  				\end{verbatim}
+  			\item \textbf{Tambahkan}, \textbf{Commit} dengan pesan "Tugas Mandiri 1", dan \textbf{Push} ke Repositori
+  			\item Hasil akhir harus seperti berikut:
+  				\begin{figure}[H]
+  					\centering
+  					\includegraphics[width=0.73\textwidth]{figures/prak2-6.png}
+  				\end{figure}
+  		\end{enumerate}
 \end{document}

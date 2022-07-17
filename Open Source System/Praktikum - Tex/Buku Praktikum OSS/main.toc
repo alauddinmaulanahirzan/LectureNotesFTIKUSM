@@ -14,4 +14,8 @@
 \contentsline {subsection}{\numberline {2.4.2}\textit {Personal Token Access}}{7}{subsection.2.4.2}%
 \contentsline {chapter}{\numberline {3}Praktikum 1}{10}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Membuat Folder GIT}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Tutorial}{10}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Praktikum 2}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Kloning dan Update Repositori}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Tutorial}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Tugas Mandiri}{17}{section.4.3}%
