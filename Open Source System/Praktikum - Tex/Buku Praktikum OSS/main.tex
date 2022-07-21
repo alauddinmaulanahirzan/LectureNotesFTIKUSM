@@ -374,7 +374,7 @@ Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya prakti
 	\end{figure}
 	\item Kini GIT siap melakukan pengunggahan. Karena masih pertama kali gunakan perintah berikut: (Catatan: \textbf{PASSWORD diisi dengan TOKEN, dan INPUT TIDAK AKAN TERLIHAT})
 	\begin{verbatim}
-		git push --set-upstream origin master -f 
+		git push --set-upstream origin main -f 
 		(Keterangan : Perintah ini akan mengeset origin sebagai tujuan dan 
 		-f akan memaksa unggahan)
 	\end{verbatim}
@@ -392,6 +392,7 @@ Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya prakti
 		\centering
 		\includegraphics[width=0.8\textwidth]{figures/prak1-13.png}
 	\end{figure}
+	\item Kumpulkan hasil yang sudah dibuat ke e-Learning yang sudah disediakan
 	\item Praktikum 1 Selesai
 	\end{enumerate}
 
@@ -462,6 +463,7 @@ Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya prakti
 			\centering
 			\includegraphics[width=0.8\textwidth]{figures/prak2-5.png}
 		\end{figure}
+	\item Praktikum 2 Selesai
 	\end{enumerate}
 
   	\section{Tugas Mandiri}
@@ -474,7 +476,7 @@ Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya prakti
   					#### Ditulis oleh : <NIM> <Nama>
   					#### Semester : <Semester>
   					#### Tanggal Praktikum : <Tanggal>
-  					
+  
   					Repositori ini merupakan hasil praktikum *Open Source System* yang nantinya 
   					dapat digunakan untuk menyimpan semua koding-koding yang dibuat.
   				\end{verbatim}
@@ -484,5 +486,99 @@ Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya prakti
   					\centering
   					\includegraphics[width=0.73\textwidth]{figures/prak2-6.png}
   				\end{figure}
+  			\item Kumpulkan hasil yang sudah dibuat ke e-Learning yang sudah disediakan
   		\end{enumerate}
+  	
+  	 %%%%%%%%%%%%%%
+  	% Bab 5 %
+  	%%%%%%%%%%%%%%
+  	
+  	\chapter{Praktikum 3}
+  		\section{Percabangan Repositori}
+  	Di bagian ini mahasiswa diajarkan bagaimana membuat percabangan (branch) dari repositori utama yang sudah dibuat sebelumnya, kemudian melakukan perubahan yang ada di dalam file, dan mengunggahnya kembali ke repositori sebagai cabang yang berbeda. Mahasiswa diwajibkan untuk menyelesaikan \textbf{Praktikum 2} sebelum masuk ke tahapan ini.
+  	
+  	\section{Tutorial}
+  	\begin{enumerate}
+  		\item Buka folder sebelumnya (\textbf{PraktikumOSS-[NIM]}) dengan menggunakan \textbf{Git Bash} atau \textbf{Terminal}
+  		\item Pastikan posisi \textbf{Git Bash} atau \textbf{Terminal} sudah berada di folder tersebut
+  		\begin{figure}[H]
+  			\centering
+  			\includegraphics[width=0.73\textwidth]{figures/prak3-1.png}
+  		\end{figure}
+  		\item Untuk memulai cabang baru dari repositori lokal saat ini, gunakan perintah berikut:
+  		\begin{itemize}
+  			\item Perintah Alternatif 1
+  			\begin{verbatim}
+  				git branch Cabang1
+  				(Keterangan : Buat cabang baru dengan nama Cabang1)
+  				git checkout Cabang1
+  				(Keterangan : Pindah cabang aktif ke Cabang1)
+  			\end{verbatim}
+  			\begin{figure}[H]
+  				\centering
+  				\includegraphics[width=0.73\textwidth]{figures/prak3-2.png}
+  			\end{figure}
+  			\item Perintah Alternatif 2
+  			\begin{verbatim}
+  				git checkout -b Cabang1
+  				(Keterangan : Buat dan pindah cabang aktif ke Cabang1)
+  			\end{verbatim}
+  			\begin{figure}[H]
+  				\centering
+  				\includegraphics[width=0.73\textwidth]{figures/prak3-3.png}
+  			\end{figure}
+  		\end{itemize}
+  		\item Sesudah itu, cabang akan dialihkan ke \textbf{Cabang1}, bukan \textbf{main} lagi. Kita dapat memodifikasi sesuka kita di cabang ini tanpa harus mengganggu cabang utama.
+  		\item Dengan menggunakan \textbf{Notepad} atau \textbf{Editor Lainnya}, buatlah sebuah file dengan nama \textbf{File Cabang Baru.txt}.
+  		\item Kemudian isi file tersebut dengan isi sebagai berikut:
+  		\begin{verbatim}
+  			File ini merupakan file yang hanya bisa dilihat di Cabang1. Sehingga tidak 
+  			akan muncul di Cabang Utama (Main)
+  		\end{verbatim}
+  	\begin{figure}[H]
+  		\centering
+  		\includegraphics[width=0.73\textwidth]{figures/prak3-4.png}
+  	\end{figure}
+  	\item Masukkan file ke dalam \textbf{stage} dengan perintah
+  	\begin{verbatim}
+  		git add -Av
+  	\end{verbatim}
+  	\item Beri \textbf{Commit} baru ke cabang yang akan diunggah
+  	\begin{verbatim}
+  		git commit -m "File Cabang Baru"
+  	\end{verbatim}
+  	\item Lalu unggah dengan perintah berikut
+  	\begin{verbatim}
+  		git push --set-upstream origin Cabang1 -f
+  		(Keterangan : Unggah Repositori ke Cabang1)
+  	\end{verbatim}
+  	\begin{figure}[H]
+  	\centering
+  	\includegraphics[width=0.73\textwidth]{figures/prak3-5.png}
+  \end{figure}
+	\item Cek apakah sudah terunggah sempurna di Repositori Remote
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.73\textwidth]{figures/prak3-6.png}
+	\end{figure}
+	\item Jika berhasil maka \textbf{Cabang1} akan muncul di daftar Branch termasuk \textbf{File Baru} yang kita buat.
+	\item Praktikum 3 Selesai
+  	\end{enumerate}
+  
+  	\section{Tugas Mandiri}
+  	\begin{enumerate}
+  		\item Buat cabang baru dengan nama \textbf{Cabang2}
+  		\item Buatlah file baru dengan nama \textbf{FIleCabang2.txt}
+  		\item Isi dengan teks berikut:
+  		\begin{verbatim}
+  			File Tugas Mandiri Cabang 2
+  		\end{verbatim}
+  		\item Unggah ke Repositori Remote
+  		\item Hasil screenshot mirip \textbf{Langkah 10}, kirimkan ke e-Learning
+  	\end{enumerate}
+  	
+  	
+  	
+  	
+  	
 \end{document}

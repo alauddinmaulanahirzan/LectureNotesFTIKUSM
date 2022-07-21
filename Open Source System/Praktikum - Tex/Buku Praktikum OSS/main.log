@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2022.6.29)  18 JUL 2022 05:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2022.6.29)  21 JUL 2022 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1589,7 +1589,7 @@ File: uesint.fd
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<./resources/pdf/logo.pdf, id=83, 2832.5825pt x 3212.0pt>
+<./resources/pdf/logo.pdf, id=99, 2832.5825pt x 3212.0pt>
 File: ./resources/pdf/logo.pdf Graphic file (type pdf)
 <use ./resources/pdf/logo.pdf>
 Package pdftex.def Info: ./resources/pdf/logo.pdf  used on input line 105.
@@ -1639,7 +1639,7 @@ l.113     \chapter
 
 ]
 Bab 1.
-<figures/delta.png, id=148, 803.0pt x 311.1625pt>
+<figures/delta.png, id=168, 803.0pt x 311.1625pt>
 File: figures/delta.png Graphic file (type png)
 <use figures/delta.png>
 Package pdftex.def Info: figures/delta.png  used on input line 121.
@@ -1647,12 +1647,12 @@ Package pdftex.def Info: figures/delta.png  used on input line 121.
 [2
 
  <./figures/delta.png>]
-<figures/snapshots.png, id=158, 803.0pt x 306.14375pt>
+<figures/snapshots.png, id=178, 803.0pt x 306.14375pt>
 File: figures/snapshots.png Graphic file (type png)
 <use figures/snapshots.png>
 Package pdftex.def Info: figures/snapshots.png  used on input line 130.
 (pdftex.def)             Requested size: 455.24411pt x 173.56479pt.
-<figures/areas.png, id=159, 803.0pt x 442.65375pt>
+<figures/areas.png, id=179, 803.0pt x 442.65375pt>
 File: figures/areas.png Graphic file (type png)
 <use figures/areas.png>
 Package pdftex.def Info: figures/areas.png  used on input line 147.
@@ -1674,7 +1674,7 @@ Overfull \hbox (6.81963pt too wide) in paragraph at lines 180--182
  demi lan-car-nya prak-tikum: 
  []
 
-<figures/installer.png, id=177, 375.65344pt x 295.1025pt>
+<figures/installer.png, id=197, 375.65344pt x 295.1025pt>
 File: figures/installer.png Graphic file (type png)
 <use figures/installer.png>
 Package pdftex.def Info: figures/installer.png  used on input line 202.
@@ -1682,52 +1682,52 @@ Package pdftex.def Info: figures/installer.png  used on input line 202.
 [5
 
 ]
-<figures/git-bash.png, id=192, 437.38406pt x 278.54062pt>
+<figures/git-bash.png, id=212, 437.38406pt x 278.54062pt>
 File: figures/git-bash.png Graphic file (type png)
 <use figures/git-bash.png>
 Package pdftex.def Info: figures/git-bash.png  used on input line 211.
 (pdftex.def)             Requested size: 364.19667pt x 231.93668pt.
  [6 <./figures/installer.PNG> <./figures/git-bash.PNG>]
-<figures/github.com.png, id=200, 1894.07625pt x 1004.75375pt>
+<figures/github.com.png, id=220, 1894.07625pt x 1004.75375pt>
 File: figures/github.com.png Graphic file (type png)
 <use figures/github.com.png>
 Package pdftex.def Info: figures/github.com.png  used on input line 222.
 (pdftex.def)             Requested size: 455.24411pt x 241.48311pt.
-<figures/token1.png, id=201, 1901.1025pt x 1114.1625pt>
+<figures/token1.png, id=221, 1901.1025pt x 1114.1625pt>
 File: figures/token1.png Graphic file (type png)
 <use figures/token1.png>
 Package pdftex.def Info: figures/token1.png  used on input line 234.
 (pdftex.def)             Requested size: 364.19667pt x 213.42715pt.
-<figures/token2.png, id=202, 1901.1025pt x 1114.1625pt>
+<figures/token2.png, id=222, 1901.1025pt x 1114.1625pt>
 File: figures/token2.png Graphic file (type png)
 <use figures/token2.png>
 Package pdftex.def Info: figures/token2.png  used on input line 240.
 (pdftex.def)             Requested size: 364.19667pt x 213.42715pt.
  [7 <./figures/github.com.png> <./figures/token1.png>]
-<figures/token3.png, id=213, 1927.2pt x 1204.5pt>
+<figures/token3.png, id=233, 1927.2pt x 1204.5pt>
 File: figures/token3.png Graphic file (type png)
 <use figures/token3.png>
 Package pdftex.def Info: figures/token3.png  used on input line 246.
 (pdftex.def)             Requested size: 364.19667pt x 227.60759pt.
-<figures/token4.png, id=214, 1927.2pt x 1204.5pt>
+<figures/token4.png, id=234, 1927.2pt x 1204.5pt>
 File: figures/token4.png Graphic file (type png)
 <use figures/token4.png>
 Package pdftex.def Info: figures/token4.png  used on input line 253.
 (pdftex.def)             Requested size: 364.19667pt x 227.60759pt.
  [8 <./figures/token2.png> <./figures/token3.png>]
-<figures/token5.png, id=226, 990.70125pt x 377.41pt>
+<figures/token5.png, id=246, 990.70125pt x 377.41pt>
 File: figures/token5.png Graphic file (type png)
 <use figures/token5.png>
 Package pdftex.def Info: figures/token5.png  used on input line 259.
 (pdftex.def)             Requested size: 364.19667pt x 138.74113pt.
  [9 <./figures/token4.png> <./figures/token5.png>]
 Bab 3.
-<figures/prak1-1.png, id=235, 565.11125pt x 158.5925pt>
+<figures/prak1-1.png, id=255, 565.11125pt x 158.5925pt>
 File: figures/prak1-1.png Graphic file (type png)
 <use figures/prak1-1.png>
 Package pdftex.def Info: figures/prak1-1.png  used on input line 279.
 (pdftex.def)             Requested size: 364.19667pt x 102.21028pt.
-<figures/prak1-0.png, id=236, 593.21625pt x 114.4275pt>
+<figures/prak1-0.png, id=256, 593.21625pt x 114.4275pt>
 File: figures/prak1-0.png Graphic file (type png)
 <use figures/prak1-0.png>
 Package pdftex.def Info: figures/prak1-0.png  used on input line 295.
@@ -1742,24 +1742,24 @@ ER-PRO-FILE%/.gitconfig \T1/cmr/m/n/12 (\T1/cmr/bx/n/12 Windows\T1/cmr/m/n/12 )
 [10
 
  <./figures/prak1-1.png>]
-<figures/prak1-2.png, id=246, 705.63625pt x 234.8775pt>
+<figures/prak1-2.png, id=266, 705.63625pt x 234.8775pt>
 File: figures/prak1-2.png Graphic file (type png)
 <use figures/prak1-2.png>
 Package pdftex.def Info: figures/prak1-2.png  used on input line 304.
 (pdftex.def)             Requested size: 364.19667pt x 121.22667pt.
-<figures/prak1-3.png, id=247, 1094.0875pt x 166.6225pt>
+<figures/prak1-3.png, id=267, 1094.0875pt x 166.6225pt>
 File: figures/prak1-3.png Graphic file (type png)
 <use figures/prak1-3.png>
 Package pdftex.def Info: figures/prak1-3.png  used on input line 312.
 (pdftex.def)             Requested size: 364.19667pt x 55.46356pt.
-<figures/prak1-4.png, id=248, 1075.01625pt x 466.74374pt>
+<figures/prak1-4.png, id=268, 1075.01625pt x 466.74374pt>
 File: figures/prak1-4.png Graphic file (type png)
 <use figures/prak1-4.png>
 Package pdftex.def Info: figures/prak1-4.png  used on input line 321.
 (pdftex.def)             Requested size: 364.19667pt x 158.12102pt.
  [11 <./figures/prak1-0.png> <./figures/prak1-2.png> <./figures/prak1-3.png> <.
 /figures/prak1-4.png>]
-<figures/prak1-5.png, id=261, 555.07375pt x 97.36375pt>
+<figures/prak1-5.png, id=281, 555.07375pt x 97.36375pt>
 File: figures/prak1-5.png Graphic file (type png)
 <use figures/prak1-5.png>
 Package pdftex.def Info: figures/prak1-5.png  used on input line 330.
@@ -1770,28 +1770,28 @@ Overfull \hbox (4.08969pt too wide) in paragraph at lines 336--336
 kan dilakukan)[] 
  []
 
-<figures/prak1-6.png, id=262, 675.52374pt x 216.81pt>
+<figures/prak1-6.png, id=282, 675.52374pt x 216.81pt>
 File: figures/prak1-6.png Graphic file (type png)
 <use figures/prak1-6.png>
 Package pdftex.def Info: figures/prak1-6.png  used on input line 339.
 (pdftex.def)             Requested size: 364.19667pt x 116.89038pt.
-<figures/prak1-7.png, id=264, 583.17876pt x 294.09875pt>
+<figures/prak1-7.png, id=284, 583.17876pt x 294.09875pt>
 File: figures/prak1-7.png Graphic file (type png)
 <use figures/prak1-7.png>
 Package pdftex.def Info: figures/prak1-7.png  used on input line 344.
 (pdftex.def)             Requested size: 364.19667pt x 183.66765pt.
-<figures/prak1-8.png, id=265, 1859.94875pt x 916.42375pt>
+<figures/prak1-8.png, id=285, 1859.94875pt x 916.42375pt>
 File: figures/prak1-8.png Graphic file (type png)
 <use figures/prak1-8.png>
 Package pdftex.def Info: figures/prak1-8.png  used on input line 349.
 (pdftex.def)             Requested size: 364.19667pt x 179.43604pt.
 [12 <./figures/prak1-5.png> <./figures/prak1-6.png> <./figures/prak1-7.png>]
-<figures/prak1-9.png, id=277, 1576.89125pt x 218.8175pt>
+<figures/prak1-9.png, id=297, 1576.89125pt x 218.8175pt>
 File: figures/prak1-9.png Graphic file (type png)
 <use figures/prak1-9.png>
 Package pdftex.def Info: figures/prak1-9.png  used on input line 355.
 (pdftex.def)             Requested size: 364.19667pt x 50.53731pt.
-<figures/prak1-10.png, id=278, 1111.15125pt x 88.33pt>
+<figures/prak1-10.png, id=298, 1111.15125pt x 88.33pt>
 File: figures/prak1-10.png Graphic file (type png)
 <use figures/prak1-10.png>
 Package pdftex.def Info: figures/prak1-10.png  used on input line 364.
@@ -1802,24 +1802,24 @@ Overfull \hbox (0.10435pt too wide) in paragraph at lines 366--367
 sikan GIT agar meny-
  []
 
-<figures/prak1-14.png, id=279, 564.1075pt x 169.63374pt>
+<figures/prak1-14.png, id=299, 564.1075pt x 169.63374pt>
 File: figures/prak1-14.png Graphic file (type png)
 <use figures/prak1-14.png>
 Package pdftex.def Info: figures/prak1-14.png  used on input line 373.
 (pdftex.def)             Requested size: 364.19667pt x 109.52032pt.
 [13 <./figures/prak1-8.png> <./figures/prak1-9.png> <./figures/prak1-10.png> <.
 /figures/prak1-14.png>]
-<figures/prak1-15.png, id=292, 837.1275pt x 431.6125pt>
+<figures/prak1-15.png, id=313, 837.1275pt x 431.6125pt>
 File: figures/prak1-15.png Graphic file (type png)
 <use figures/prak1-15.png>
 Package pdftex.def Info: figures/prak1-15.png  used on input line 383.
 (pdftex.def)             Requested size: 364.19667pt x 187.76967pt.
-<figures/prak1-12.png, id=293, 1893.0725pt x 919.435pt>
+<figures/prak1-12.png, id=314, 1893.0725pt x 919.435pt>
 File: figures/prak1-12.png Graphic file (type png)
 <use figures/prak1-12.png>
 Package pdftex.def Info: figures/prak1-12.png  used on input line 388.
 (pdftex.def)             Requested size: 364.19667pt x 176.88306pt.
-<figures/prak1-13.png, id=294, 1897.0875pt x 618.31pt>
+<figures/prak1-13.png, id=315, 1897.0875pt x 618.31pt>
 File: figures/prak1-13.png Graphic file (type png)
 <use figures/prak1-13.png>
 Package pdftex.def Info: figures/prak1-13.png  used on input line 393.
@@ -1827,51 +1827,100 @@ Package pdftex.def Info: figures/prak1-13.png  used on input line 393.
  [14 <./figures/prak1-15.png> <./figures/prak1-12.png> <./figures/prak1-13.png>
 ]
 Bab 4.
-<figures/prak2-1.png, id=306, 943.525pt x 312.16624pt>
+<figures/prak2-1.png, id=327, 895.345pt x 215.80624pt>
 File: figures/prak2-1.png Graphic file (type png)
 <use figures/prak2-1.png>
-Package pdftex.def Info: figures/prak2-1.png  used on input line 425.
-(pdftex.def)             Requested size: 364.19667pt x 120.49637pt.
+Package pdftex.def Info: figures/prak2-1.png  used on input line 426.
+(pdftex.def)             Requested size: 364.19667pt x 87.78302pt.
 [15
 
  <./figures/prak2-1.png>]
-<figures/prak2-2.png, id=315, 603.25375pt x 184.69pt>
+<figures/prak2-2.png, id=337, 560.0925pt x 139.52126pt>
 File: figures/prak2-2.png Graphic file (type png)
 <use figures/prak2-2.png>
-Package pdftex.def Info: figures/prak2-2.png  used on input line 433.
-(pdftex.def)             Requested size: 364.19667pt x 111.49965pt.
-<figures/prak2-3.png, id=316, 606.265pt x 151.56625pt>
+Package pdftex.def Info: figures/prak2-2.png  used on input line 434.
+(pdftex.def)             Requested size: 364.19667pt x 90.72604pt.
+<figures/prak2-3.png, id=338, 563.10374pt x 108.405pt>
 File: figures/prak2-3.png Graphic file (type png)
 <use figures/prak2-3.png>
-Package pdftex.def Info: figures/prak2-3.png  used on input line 442.
-(pdftex.def)             Requested size: 364.19667pt x 91.04913pt.
-<figures/prak2-4.png, id=317, 649.42625pt x 223.83624pt>
+Package pdftex.def Info: figures/prak2-3.png  used on input line 443.
+(pdftex.def)             Requested size: 364.19667pt x 70.11339pt.
+<figures/prak2-4.png, id=339, 628.3475pt x 91.34125pt>
 File: figures/prak2-4.png Graphic file (type png)
 <use figures/prak2-4.png>
-Package pdftex.def Info: figures/prak2-4.png  used on input line 450.
-(pdftex.def)             Requested size: 364.19667pt x 125.52846pt.
-<figures/prak2-5.png, id=318, 747.79375pt x 407.5225pt>
+Package pdftex.def Info: figures/prak2-4.png  used on input line 451.
+(pdftex.def)             Requested size: 364.19667pt x 52.94171pt.
+<figures/prak2-5.png, id=340, 534.99875pt x 361.35pt>
 File: figures/prak2-5.png Graphic file (type png)
 <use figures/prak2-5.png>
-Package pdftex.def Info: figures/prak2-5.png  used on input line 463.
-(pdftex.def)             Requested size: 364.19667pt x 198.4752pt.
+Package pdftex.def Info: figures/prak2-5.png  used on input line 464.
+(pdftex.def)             Requested size: 364.19667pt x 245.99596pt.
  [16 <./figures/prak2-2.png> <./figures/prak2-3.png> <./figures/prak2-4.png>]
-Overfull \hbox (18.08151pt too wide) in paragraph at lines 480--480
+Overfull \hbox (18.08151pt too wide) in paragraph at lines 482--482
  []   \T1/zi4/m/n/12 Repositori ini merupakan hasil praktikum *Open Source Syst
 em* yang nantinya[] 
  []
 
-<figures/prak2-6.png, id=332, 1165.35374pt x 696.6025pt>
+<figures/prak2-6.png, id=353, 1165.35374pt x 696.6025pt>
 File: figures/prak2-6.png Graphic file (type png)
 <use figures/prak2-6.png>
-Package pdftex.def Info: figures/prak2-6.png  used on input line 485.
+Package pdftex.def Info: figures/prak2-6.png  used on input line 487.
 (pdftex.def)             Requested size: 332.32625pt x 198.6507pt.
-[17 <./figures/prak2-5.png> <./figures/prak2-6.png>] (./main.aux)
+[17 <./figures/prak2-5.png>] [18 <./figures/prak2-6.png>]
+Bab 5.
+
+Overfull \hbox (0.77087pt too wide) in paragraph at lines 502--503
+[]\T1/cmr/m/n/12 Buka folder se-belum-nya (\T1/cmr/bx/n/12 PraktikumOSS-[NIM]\T
+1/cmr/m/n/12 ) den-gan meng-gu-nakan \T1/cmr/bx/n/12 Git Bash
+ []
+
+<figures/prak3-1.png, id=371, 553.06625pt x 80.3pt>
+File: figures/prak3-1.png Graphic file (type png)
+<use figures/prak3-1.png>
+Package pdftex.def Info: figures/prak3-1.png  used on input line 506.
+(pdftex.def)             Requested size: 332.32625pt x 48.2502pt.
+<figures/prak3-2.png, id=372, 533.995pt x 173.64874pt>
+File: figures/prak3-2.png Graphic file (type png)
+<use figures/prak3-2.png>
+Package pdftex.def Info: figures/prak3-2.png  used on input line 519.
+(pdftex.def)             Requested size: 332.32625pt x 108.0718pt.
+[19
+
+ <./figures/prak3-1.png>]
+<figures/prak3-3.png, id=381, 544.0325pt x 90.3375pt>
+File: figures/prak3-3.png Graphic file (type png)
+<use figures/prak3-3.png>
+Package pdftex.def Info: figures/prak3-3.png  used on input line 528.
+(pdftex.def)             Requested size: 332.32625pt x 55.18573pt.
+
+Overfull \hbox (8.07333pt too wide) in paragraph at lines 537--537
+ []   \T1/zi4/m/n/12 File ini merupakan file yang hanya bisa dilihat di Cabang1
+. Sehingga tidak[] 
+ []
+
+<figures/prak3-4.png, id=382, 1339.0025pt x 158.5925pt>
+File: figures/prak3-4.png Graphic file (type png)
+<use figures/prak3-4.png>
+Package pdftex.def Info: figures/prak3-4.png  used on input line 540.
+(pdftex.def)             Requested size: 332.32625pt x 39.36005pt.
+<figures/prak3-5.png, id=383, 1063.975pt x 414.54875pt>
+File: figures/prak3-5.png Graphic file (type png)
+<use figures/prak3-5.png>
+Package pdftex.def Info: figures/prak3-5.png  used on input line 557.
+(pdftex.def)             Requested size: 332.32625pt x 129.47658pt.
+[20 <./figures/prak3-2.png> <./figures/prak3-3.png> <./figures/prak3-4.png>]
+<figures/prak3-6.png, id=397, 1150.2975pt x 376.40625pt>
+File: figures/prak3-6.png Graphic file (type png)
+<use figures/prak3-6.png>
+Package pdftex.def Info: figures/prak3-6.png  used on input line 562.
+(pdftex.def)             Requested size: 332.32625pt x 108.74147pt.
+
+[21 <./figures/prak3-5.png> <./figures/prak3-6.png>] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1023392EA0B4EDCF05D7DAF790474B3A;2649.
+(rerunfilecheck)             Checksum: 6C3B52BCEF3805BAEC57B249D70CB802;3137.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1882,10 +1931,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37584 strings out of 480954
- 693971 string characters out of 5905050
- 1440306 words of memory out of 5000000
- 53986 multiletter control sequences out of 15000+600000
+ 37658 strings out of 480954
+ 695083 string characters out of 5905050
+ 1441310 words of memory out of 5000000
+ 54020 multiletter control sequences out of 15000+600000
  425449 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  125i,12n,137p,786b,1742s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1905,10 +1954,10 @@ ic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfr
 m1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr
 /share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-di
 st/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (19 pages, 6296247 bytes).
+Output written on main.pdf (23 pages, 6843524 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
- 116 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 406 compressed objects within 5 object streams
+ 150 named destinations out of 1000 (max. 500000)
+ 392 words of extra memory for PDF output out of 10000 (max. 10000000)
 

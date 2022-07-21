@@ -19,3 +19,7 @@
 \contentsline {section}{\numberline {4.1}Kloning dan Update Repositori}{15}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Tutorial}{15}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Tugas Mandiri}{17}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Praktikum 3}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Percabangan Repositori}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Tutorial}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Tugas Mandiri}{21}{section.5.3}%
