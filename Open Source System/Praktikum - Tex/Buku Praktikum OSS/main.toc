@@ -23,3 +23,6 @@
 \contentsline {section}{\numberline {5.1}Percabangan Repositori}{19}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Tutorial}{19}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Tugas Mandiri}{21}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Praktikum 4}{22}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Penggabungan dan Penghapusan Cabang Repositori}{22}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Tutorial}{22}{section.6.2}%

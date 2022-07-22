@@ -568,17 +568,87 @@ Perangkat lunak berikut ini wajib diinstall oleh mahasiswa demi lancarnya prakti
   	\section{Tugas Mandiri}
   	\begin{enumerate}
   		\item Buat cabang baru dengan nama \textbf{Cabang2}
-  		\item Buatlah file baru dengan nama \textbf{FIleCabang2.txt}
+  		\item Buatlah file baru dengan nama \textbf{FileCabang2.txt}
   		\item Isi dengan teks berikut:
   		\begin{verbatim}
   			File Tugas Mandiri Cabang 2
   		\end{verbatim}
   		\item Unggah ke Repositori Remote
-  		\item Hasil screenshot mirip \textbf{Langkah 10}, kirimkan ke e-Learning
+  		\item Hasil screenshot mirip \textbf{Langkah 10}, kirimkan ke e-Learningt b
   	\end{enumerate}
   	
+  	%%%%%%%%%%%%%%
+  	% Bab 6 %
+  	%%%%%%%%%%%%%%
   	
+  	\chapter{Praktikum 4}
+  	\section{Penggabungan dan Penghapusan Cabang Repositori}
+  	Di bagian ini mahasiswa diajarkan bagaimana menggabungkan percabangan (branch) sudah dibuat sebelumnya. Selain itu juga mengajarkan bagaimana melakukan penghapusan cabang yang ada di luring maupun daring. Mahasiswa diwajibkan untuk menyelesaikan \textbf{Praktikum 3} sebelum masuk ke tahapan ini.
   	
+  	\section{Tutorial}
+  	\begin{enumerate}
+  		\item Buka \textbf{Git Bash} atau \textbf{Terminal} dan buka folder Praktikumnya
+  		\item Sebelum melakukan penggabungan, cek cabang yang sudah dibuat dari \textbf{Praktikum 3} dengan menggunakan perintah sebagai berikut:
+  			\begin{verbatim}
+  				git branch -a
+  				(Keterangan : Tampilkan semua cabang baik luring maupun daring)
+  			\end{verbatim}
+  			\begin{figure}[H]
+  				\centering
+  				\includegraphics[width=0.73\textwidth]{figures/prak4-1.png}
+  			\end{figure}
+  		\item Jika tulisan berwarna \textbf{Putih} maka cabang itu bersifat \textbf{LOKAL}. Jika tulisan berwarna \textbf{Hijau} dan memiliki tanda \textbf{ASTERISK *}, maka cabang itu merupakan cabang \textbf{Aktif}. Jika tulisan berwarna \textbf{Merah} denga awalan \textbf{Remote}, maka cabang tersebut adalah \textbf{ONLINE / REMOTE}
+  		\item Tutup aplikasi dengan menggunakan kombinasi:
+  			\begin{verbatim}
+  				:q!
+  				(Jika menggunakan Editor vim)
+  				CTRL+X
+  				(Jika menggunakan Editor nano)
+  				ALT+F4
+  				(Jika menggunakan Notepad)
+  			\end{verbatim}
+  		\item Di praktikum ini kita akan menggabungkan cabang \textbf{Cabang1} ke \textbf{Main}. Namun pastikan bahwa kita dalam posisi bukan di \textbf{Cabang1} maupun \textbf{Cabang2}. Pindah ke cabang \textbf{main} dengan perintah \textbf{checkout}
+  		\item Untuk melakukan \textbf{merge}, gunakan perintah berikut:
+  			\begin{verbatim}
+  				 git merge Cabang1 --into-name main
+  				 (Keterangan : Gabungkan Cabang1 ke main)
+  			\end{verbatim}
+  			\begin{figure}[H]
+  				\centering
+  				\includegraphics[width=0.73\textwidth]{figures/prak4-2.png}
+  			\end{figure}
+  		\item Cabang \textbf{Cabang1} tidak akan terhapus, tetapi semua file nya akan menggabung ke \textbf{main}.
+  		\item Lalu lakukan \textbf{PUSH} dengan perintah berikut:
+  			\begin{verbatim}
+  				git push
+  			\end{verbatim} 
+  		\item File dari \textbf{Cabang1} akan menggabung ke \textbf{main}
+  		\begin{figure}[H]
+  			\centering
+  			\includegraphics[width=0.73\textwidth]{figures/prak4-3.png}
+  		\end{figure}
+  		\item Hapus sisa-sisa cabang yang tidak dipakai dengan menggunakan perintah
+  			\begin{verbatim}
+  				git branch -D Cabang1
+  				git branch -D Cabang2
+  				(Keterangan : Hapus repositori lokal Cabang1 dan Cabang2)
+  			\end{verbatim}
+  				\begin{figure}[H]
+  				\centering
+  				\includegraphics[width=0.73\textwidth]{figures/prak4-4.png}
+  			\end{figure}
+  		\item Lalu hapus juga repositori remote nya dengan menggunakan perintah berikut
+  			\begin{verbatim}
+  				git push -d origin Cabang1
+  				git push -d origin Cabang2
+  				(Keterangan : Hapus repositori remote Cabang1 dan Cabang2)
+  			\end{verbatim}
+  			\begin{figure}[H]
+  			\centering
+  			\includegraphics[width=0.73\textwidth]{figures/prak4-5.png}
+  		\end{figure}
+  		\item Praktikum 4 Selesai
+  	\end{enumerate}
   	
   	
 \end{document}
