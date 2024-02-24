@@ -1,0 +1,10 @@
+*.7z
+*.zip
+*~lock*
+*DS_Store
+~$*
+*.png
+*.jpg
+Internet*of*Things/*/*/*.py
+*/99*
+**/*99*
