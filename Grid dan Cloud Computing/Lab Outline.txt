@@ -1,0 +1,36 @@
+ 
+1. Introduction to Cloud Computing and Microservers
+=> Perkenalkan microserver dan kemampuannya.
+=> Pelajari cara menghubungkan ke microserver melalui SSH.
+=> Berlatih operasi baris perintah dasar (misalnya, manajemen berkas, navigasi sistem).
+
+2. File Management
+=> Manajemen Lokal
+=> Remote Transfer
+
+3. Process Management
+=> Pantau proses dengan ps, top, dan htop.
+=> Kelola proses menggunakan kill, killall, dan pkill.
+
+4. Disk Management
+=> Periksa penggunaan disk dengan df dan du.
+=> Kelola partisi dan ruang disk menggunakan fdisk, parted, dan mkfs.
+=> Jelajahi hierarki sistem berkas dan sistem berkas yang terpasang.
+
+5. Simple Web Server
+=> Instal server web yang ringan (misalnya, Nginx atau Apache).
+=> Konfigurasikan server web untuk menyajikan halaman HTML sederhana.
+=> Akses halaman web dari browser untuk memastikannya berfungsi.
+
+6. Simple Web App
+=> App Silk Shoutbox https://github.com/blue0x1/Silk
+
+7. Pemantauan dan Pencatatan
+=> Menginstal dan mengonfigurasi alat pemantauan ringan (htop, bashtop).
+=> Menyiapkan pemantauan sumber daya sistem dasar (CPU, memori, penggunaan disk).
+=> Mengonfigurasi manajemen log (misalnya, menggunakan rsyslog atau logrotate).
+
+8. Manajemen Backup
+=> Gunakan tar untuk membuat cadangan direktori dan file.
+=> Siapkan skrip sederhana untuk mengotomatiskan pencadangan.
+=> Pulihkan file dari arsip cadangan.
